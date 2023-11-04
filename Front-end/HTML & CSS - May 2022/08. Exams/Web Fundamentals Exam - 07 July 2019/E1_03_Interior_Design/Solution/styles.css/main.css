@@ -1,0 +1,208 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.title {
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.header {
+    background-image: url(../../Requirements-and-Resources/image/image.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 135vh;
+}
+
+.header div {
+    -webkit-box-shadow: 5px 4px 15px 0px #555555;
+    box-shadow: 5px 4px 15px 0px #555555;
+    border-radius: 4px;
+    position: relative;
+}
+
+.header-logo-wrapper {
+    width: 420px;
+    height: 340px;
+    padding: 30px 22px;
+    top: 54px;
+    left: 92px;
+}
+
+.header-main-title {
+    font-size: 62px;
+    line-height: 1.5;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 14px;
+    width: 225px;
+}
+
+.header-logo {
+    margin-top: 14px;
+    font-size: 28px;
+}
+
+.header-content-wrapper {
+    width: 540px;
+    height: 407px;
+    background-image: linear-gradient(to right, #9d938b, #a39a92, #a9a19a, #afa8a1, #b5afa9, #b9b3ae, #bcb8b3, #c0bcb8, #c2bfbc, #c5c1bf, #c7c4c3, #c9c7c6);
+    left: 1297px;
+    top: 126px;
+    text-align: right;
+    padding: 0px 24px;
+    text-shadow: 2px 2px 2px #200e08;
+    font-weight: 500;
+}
+
+.header-content {
+    font-size: 27px;
+    color: #fff;
+}
+
+.header-content-element {
+    font-size: 100px;
+    color: #8D8581;
+    position: relative;
+    top: 43px;
+}
+
+.content-wrapper {
+    background-color: #F2F0F3;
+    height: 100vh;
+    display: flex;
+}
+
+.main {
+    padding: 50px 150px;
+    flex-basis: 70%;
+}
+
+.main-title {
+    margin-bottom: 40px;
+}
+
+.main-li {
+    line-height: 1.5;
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+.main-li i {
+    color: #333333;
+    margin-right: 14px;
+}
+
+.main-li span {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.aside {
+    flex-basis: 30%;
+    background-color: #BAB1AD;
+    padding: 30px 40px;
+}
+
+.aside-li{
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.aside-li span {
+    color: #fff;
+    font-size: 120px;
+    font-weight: 200;
+}
+
+.footer {
+    position: relative;
+    top: -315px;
+    margin-bottom: unset;
+    background-color: #F2F0F3;
+    width: 1190px;
+}
+
+.footer-title {
+    border-bottom: 2px solid #000;
+    padding-bottom: 6px;
+    padding-left: 137px;
+    width: 1333px;
+}
+
+.footer-ul {
+    width: 1190px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    padding-left: 137px;
+    margin-top: 30px;
+}
+
+.footer-ul li:nth-child(3) {
+    position: relative;
+    left: -23px;
+}
+
+.footer-li {
+    font-size: 22px;
+    line-height: 1.8;
+    flex: 0 1 21.5%;
+}
+
+.footer-li span {
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 5px;
+}
+
+.footer-form {
+    margin-top: 40px;
+    position: relative;
+    left: -48px;
+}
+
+.footer-form-label {
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    left: 195px;
+    top: 3px;
+}
+
+.footer-form-input {
+    background-color: #BAB1AD;
+    border: none;
+    padding: 15px 8px;
+    border-radius: 6px;
+    width: 350px;
+}
+
+.footer-form-buttom {
+    background-color: #67784D;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 20px;
+    margin-left: 12px;
+}

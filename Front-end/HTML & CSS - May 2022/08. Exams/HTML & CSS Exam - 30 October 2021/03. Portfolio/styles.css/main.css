@@ -1,0 +1,262 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+:root {
+    --clr-black: #323232;
+    --clr-grey: #EFEFEF;
+    --clr-dark-grey: #909090;
+    --clr-white: #fff;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: var(--clr-black);
+    position: relative;
+}
+
+/* ---Components--- */
+.section {
+    height: 70vh;
+    background-color: var(--clr-grey);
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: -.5px;
+    margin-bottom: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.devider {
+    background-color: #323232;
+}
+
+.devider-vertical {
+    width: 1px;
+    height: 70px;
+}
+
+.devider-horizontal {
+    width: 70px;
+    height: 1px;
+    position: relative;
+    top: -10px;
+}
+
+.content {
+    font-size: 22px;
+    line-height: 1.5;
+    font-style: italic;
+    margin-bottom: 26px;
+}
+
+/* ---Header--- */
+
+#header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    z-index: 10;
+    right: 18px;
+    top: 18px;
+}
+
+.header-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.header-btn i {
+    color: var(--clr-black);
+}
+
+/* ---Main--- */
+/* ------Hero------ */
+#hero {
+    padding-left: 180px;
+    position: relative;
+}
+
+.hero-content-wrapper {
+    position: absolute;
+    top: 200px;
+}
+
+.hero-content {
+    width: 650px;
+}
+
+.hero-img {
+    width: 880px;
+    position: absolute;
+    right: 130px;
+    bottom: 0px;
+}
+
+/* ------About------ */
+#about {
+    position: relative;
+}
+
+.about-img {
+    width: 600px;
+    position: absolute;
+    left: 178px;
+    top: 92px;
+}
+
+.about-content-wrapper {
+    position: absolute;
+    right: 164px;
+    bottom: 145px;
+}
+
+.about-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.about-content {
+    width: 820px;
+}
+
+.about-content-wrapper .about-content:last-of-type {
+    margin-bottom: 40px;
+}
+
+.about-ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-li {
+    background-color: var(--clr-dark-grey);
+    padding: 12px 14px;
+}
+
+.about-li a i {
+    color: var(--clr-white);
+    font-size: 19px;
+}
+
+/* ------Big-Pic------ */
+
+.big-pic-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ------Info------ */
+
+#info {
+    padding-left: 180px;
+    position: relative;
+}
+
+.info-content-wrapper {
+    position: absolute;
+    top: 200px
+}
+
+.info-content {
+    width: 550px;
+}
+
+.info-img {
+    width: 880px;
+    position: absolute;
+    right: 130px;
+    top: 118px;
+}
+
+/* ------Gallery------ */
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galerry-img {
+    width: 500px;
+}
+
+#gallery .galerry-img:nth-child(2) {
+    transform: scale(1.5);
+}
+
+/* ------Form------ */
+
+#form {
+    text-align: center;
+    padding: 130px;
+    margin-bottom: unset;
+}
+
+.form-content {
+    width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.form-form {
+    width: 800px;
+    margin: 0 auto;
+    display: grid;
+    gap: 30px;
+    grid-template-areas:
+        "email subject"
+        "message message"
+        "btn btn";
+}
+
+.form-form input:first-of-type {
+    grid-area: email;
+}
+
+.form-form input:last-of-type {
+    grid-area: subject;
+}
+
+.form-form textarea {
+    grid-area: message;
+}
+
+.form-form .form-btn {
+    grid-area: btn;
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    letter-spacing: .5px;
+    padding: 10px;
+}
+
+.form-form input,
+.form-form textarea {
+    padding: 12px;
+    background-color: transparent;
+    color: var(--clr-dark-grey);
+    border: 1.5px solid var(--clr-black);
+}
+
+/* ---Footer--- */
+
+#footer {
+    position: absolute;
+    bottom: 18px;
+    left: 882px;
+}

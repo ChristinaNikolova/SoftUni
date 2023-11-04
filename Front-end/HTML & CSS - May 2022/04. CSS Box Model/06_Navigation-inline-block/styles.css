@@ -1,0 +1,42 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+header p,
+nav,
+ul,
+li {
+    display: inline-block;
+}
+
+body {
+    padding: 20px 50px;
+}
+
+header {
+    border-bottom: 2px solid #000;
+}
+
+.header-title {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+header nav {
+    margin-left: 50px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header a {
+    color: #539A03;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+h1 {
+    font-family: Times, serif;
+    font-weight: 500;
+}

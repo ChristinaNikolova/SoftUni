@@ -1,0 +1,122 @@
+@media screen and (max-width: 600px) {
+
+    .simple-house-header.container.placeholder {
+        padding-top: 120px;
+    }
+
+    header .tm-header-inner {
+        padding-left: 5px;
+        margin: unset;
+    }
+
+    article.parallax-window article.tm-header article.row.tm-header-inner {
+        width: 600px;
+    }
+
+    .row.tm-header-inner img {
+        width: 90px;
+    }
+
+    .tm-site-title {
+        font-size: 3.5rem;
+        padding: unset;
+    }
+
+    .tm-site-description {
+        font-size: 1.7rem;
+    }
+
+    header nav.tm-nav {
+        position: relative;
+        left: 230px;
+        padding: unset;
+    }
+
+    .tm-paging-links {
+        margin-bottom: 60px;
+    }
+
+    header nav.tm-nav a {
+        font-size: 22px;
+    }
+
+    .row.tm-gallery {
+        margin: unset;
+    }
+
+    #tm-gallery-page-pizza {
+        margin: unset;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tm-section-title {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-left: unset;
+    }
+
+    .row.tm-welcome-section p.text-center {
+        font-size: 22px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .tm-paging-item {
+        width: 27%;
+        font-size: 20px;
+    }
+
+    #tm-gallery-page-pizza article {
+        max-width: unset;
+    }
+
+    #tm-gallery-page-pizza article figure {
+        width: 400px;
+    }
+
+    .img-fluid {
+        width: 100%;
+    }
+
+    .tm-gallery-title {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .tm-gallery-description {
+        font-size: 1.2rem;
+    }
+
+    .tm-cta-section {
+        width: 600px;
+    }
+
+    .tm-gallery-price {
+        font-weight: 600;
+        margin-bottom: 90px;
+    }
+
+    .tm-cta-section.tm-section.tm-container-inner {
+        justify-content: center;
+        align-items: center;
+        padding: unset;
+    }
+
+    .tm-cta-section.tm-section.tm-container-inner .row {
+        flex-direction: column;
+    }
+
+    .tm-cta-section.tm-section.tm-container-inner .row .col-md-6 {
+        padding: unset;
+    }
+
+    .tm-description-box p.tm-mb-45 {
+        font-size: 23px;
+    }
+
+    .tm-btn.tm-btn-default.tm-right,
+    footer {
+        font-weight: 600;
+    }
+}

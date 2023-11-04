@@ -1,0 +1,267 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+:root {
+    --clr-white: #fff;
+    --clr-creme: #E6E3DE;
+    --clr-orange: #D94B33;
+    --clr-brown: #564A39;
+    --clr-black: #0B0D1C;
+}
+
+html {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Gelasio', serif;
+    position: relative;
+}
+
+/* ---Components--- */
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    color: var(--clr-white);
+    padding: 10px 12px;
+}
+
+.btn-brown {
+    background-color: var(--clr-brown);
+}
+
+.section {
+    width: 1700px;
+    height: 50vh;
+    position: absolute;
+    left: 98px;
+    right: 0px;
+}
+
+.img {
+    width: 900px;
+}
+
+.content-wrapper {
+    height: 602.48px;
+    width: 600px;
+    background-color: var(--clr-creme);
+    flex-direction: column;
+    color: var(--clr-black);
+}
+
+.main-title {
+    font-size: 38px;
+    margin-bottom: 2px;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+/* ---Header--- */
+
+#header {
+    height: 6vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: var(--clr-creme);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--clr-brown);
+}
+
+.header-logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header-ul {
+    gap: 40px;
+}
+
+.header-li a {
+    color: var(--clr-brown);
+    font-size: 19px;
+}
+
+.header-nav:last-of-type .header-ul {
+    gap: 34px;
+}
+
+.btn-icon {
+    font-size: 17px;
+    color: var(--clr-black);
+    border: none;
+    background-color: transparent;
+}
+
+/* ---Main--- */
+
+#main-background-img {
+    width: 100%;
+    height: 180vh;
+    background-image: url(../Media/background.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ------Hero------ */
+
+#hero {
+    height: 56vh;
+    padding-top: 164px;
+    background-image: url(../Media/craving.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.hero-title {
+    color: var(--clr-white);
+    font-size: 50px;
+    margin-bottom: 26px;
+}
+
+.hero-form {
+    position: relative;
+}
+
+.hero-form i {
+    position: absolute;
+    top: 12px;
+    left: 731px;
+    z-index: 10;
+    color: var(--clr-brown);
+    opacity: .5;
+}
+
+.hero-form-input {
+    width: 25%;
+    opacity: .6;
+    padding: 12px;
+    border: none;
+    border-radius: 2px;
+}
+
+/* ------Cocktail------ */
+
+#cocktail {
+    top: 750px;
+}
+
+.cocktail-sub-title {
+    margin-bottom: 24px;
+}
+
+.cocktail-btn {
+    width: 140px;
+    padding: 12px;
+}
+
+/* ------Cookies------ */
+
+#cookies {
+    top: 1403px;
+}
+
+/* ------Toolbox------ */
+
+#toolbox {
+    width: 1700px;
+    height: 30vh;
+    position: absolute;
+    top: 2090px;
+    left: 98px;
+    flex-direction: column;
+}
+
+.toolbox-title {
+    font-size: 30px;
+    padding: 6px 32px;
+    margin-bottom: 24px;
+    color: var(--clr-brown);
+    background-color: var(--clr-creme);
+    opacity: .8;
+}
+
+.toolbox-ul {
+    width: 90%;
+    gap: 70px;
+    margin-bottom: 60px;
+}
+
+.toolbox-li {
+    display: flex;
+    flex-direction: column;
+}
+
+.toolbox-li-img {
+    width: 260px;
+}
+
+.toolbox-li-title {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-align: center;
+    color: var(--clr-black);
+    background-color: #E6E3DE;
+    opacity: .8;
+    padding: 12px;
+}
+
+.toolbox-btn {
+    font-weight: 600;
+    background-color: var(--clr-orange);
+    width: 340px;
+}
+
+/* ---Footer--- */
+
+#footer {
+    width: 1920px;
+    height: 8vh;
+    background-color: #E6E3DE;
+    opacity: .8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.footer-ul {
+    gap: 22px;
+}
+
+.footer-li {
+    border-right: 1px solid var(--clr-black);
+    padding-right: 10px;
+}
+
+.footer-ul .footer-li:last-of-type {
+    border: unset;
+    padding-right: unset;
+}
+
+.footer-li,
+.footer-li a {
+    color: var(--clr-black);
+}

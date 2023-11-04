@@ -1,0 +1,51 @@
+@media screen and (max-width: 850px) {
+    header h1 {
+        font-size: 62px;
+        margin-bottom: 20px;
+    }
+
+    header nav a {
+        font-size: 38px;
+    }
+
+    .pair {
+        flex-direction: column;
+    }
+
+    .planet {
+        width: unset;
+    }
+
+    .planet_info h3 {
+        font-size: 44px;
+    }
+
+    .planet_info p {
+        font-size: 27px;
+    }
+
+    .news ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news ul li img {
+        width: 399px;
+        height: 300px;
+    }
+
+    .news ul li h2 {
+        font-size: 29px;
+        text-align: center;
+    }
+
+    footer nav {
+        flex-direction: column;
+    }
+
+    .primary footer nav a:nth-child(even) {
+        border-left: unset;
+        border-right: unset;
+    }
+}

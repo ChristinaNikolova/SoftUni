@@ -1,0 +1,110 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --clr-white: #fff;
+    --clr-light-blue: #D9EBEB;
+    --clr-blue: #04F1EF;
+    --clr-black: #001216;
+}
+
+html {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--clr-black);
+}
+
+.section {
+    width: 950px;
+    margin: 150px auto;
+}
+
+.section-header {
+    height: 13vh;
+    background-color: var(--clr-black);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding-top: 22px;
+    padding-left: 14px;
+}
+
+.section-main-title {
+    color: var(--clr-blue);
+    font-size: 50px;
+    font-weight: 550;
+}
+
+.section-sub-title {
+    color: var(--clr-white);
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+
+.section-main {
+    display: flex;
+    gap: 30px;
+    padding-top: 34px;
+    padding-left: 20px;
+    border-left: 4px solid var(--clr-black);
+    border-right: 4px solid var(--clr-black);
+}
+
+.section-main-img-wrapper {
+    border: 1px solid var(--clr-black);
+    padding: 10px 20px;
+    height: 480px;
+}
+
+.section-main-img {
+    margin-bottom: 8px;
+}
+
+.section-main-img-content {
+    width: 330px;
+    letter-spacing: 2.1px;
+    font-size: 19.7px;
+    line-height: 1.2;
+}
+
+.section-main-content-wrapper {
+    padding-top: 20px;
+    padding-right: 40px;
+    margin-bottom: 70px;
+    font-size: 24.3px;
+    letter-spacing: 2px;
+    line-height: 1.4;
+}
+
+.section-footer {
+    border-left: 4px solid var(--clr-black);
+    border-right: 4px solid var(--clr-black);
+    border-bottom: 4px solid var(--clr-black);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.section-footer-title {
+    width: 275px;
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    font-size: 30px;
+    font-weight: 550;
+    padding: 2px 0px 2px 14px;
+}
+
+.section-footer-ul {
+    background-color: var(--clr-light-blue);
+    padding: 20px 30px;
+}
+
+.section-footer-li {
+    font-size: 24px;
+    margin-bottom: 4px;
+    letter-spacing: 1.7px;
+}
+
+.section-footer-li span {
+    font-weight: 700;
+}

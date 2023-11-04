@@ -1,0 +1,256 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --clr-white: #fff;
+    --clr-red: #FF0000;
+    --clr-light-grey: #FBFCFF;
+    --clr-grey: #DADADA;
+    --clr-dark-grey: #575757;
+    --clr-black: #333333;
+    --clr-dark-black: #090909;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: var(--clr-black);
+}
+
+/* ---Components--- */
+.btn {
+    width: 230px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 28px;
+    background-color: var(--clr-red);
+    color: var(--clr-white);
+    font-size: 19px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* ---Header--- */
+
+#header {
+    height: 6vh;
+    padding-left: 200px;
+    padding-right: 200;
+}
+
+.header-ul {
+    height: 6vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-li a {
+    color: var(--clr-dark-grey);
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 20px;
+}
+
+/* ---Main--- */
+/* ------Solo------ */
+
+#solo {
+    position: relative;
+    height: 60vh;
+}
+
+.solo-content-wrapper {
+    position: absolute;
+    width: 620px;
+    top: 266px;
+    left: 266px;
+}
+
+.solo-title {
+    font-size: 68px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--clr-dark-black);
+    margin-bottom: 40px;
+}
+
+.solo-content {
+    font-size: 22px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+.solo-img {
+    width: 900px;
+    position: absolute;
+    right: 0px;
+    top: 53px;
+}
+
+/* ------Powerbeats------ */
+
+#powerbeats {
+    height: 70vh;
+    margin-top: 380px;
+    background-color: var(--clr-light-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+.powerbeats-content-wrapper {
+    width: 586px;
+}
+
+.powerbeats-main-title {
+    font-size: 96px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--clr-dark-black);
+    text-align: left;
+}
+
+.powerbeats-sub-title {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 70px;
+}
+
+.powerbeats-content {
+    font-size: 24px;
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+
+.powerbeats-btn-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 36px;
+}
+
+.powerbeats-price {
+    color: var(--clr-dark-black);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.powerbeats-img {
+    width: 650px;
+}
+
+/* ------Free------ */
+
+#free {
+    height: 36vh;
+    background-color: var(--clr-dark-grey);
+    color: var(--clr-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.free-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.free-img {
+    width: 150px;
+}
+
+.free-title {
+    font-size: 52px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.free-link {
+    border-bottom: 1px solid var(--clr-white);
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--clr-white);
+}
+
+/* ------GiveLife------ */
+
+#give-life {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.give-life-content-wrapper,
+.give-life-img {
+    height: 80vh;
+}
+
+.give-life-img {
+    flex-basis: 47%;
+    object-fit: cover;
+}
+
+.give-life-content-wrapper {
+    padding-left: 100px;
+    flex-basis: 53%;
+    background-color: var(--clr-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.give-life-main-title {
+    font-size: 250px;
+    text-transform: uppercase;
+    letter-spacing: -25px;
+    line-height: 1;
+}
+
+.give-life-sub-title {
+    font-size: 96px;
+    font-weight: 300;
+    letter-spacing: -7px;
+}
+
+.red {
+    text-transform: uppercase;
+    color: var(--clr-red);
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.give-life-content-img {
+    width: 450px;
+    position: relative;
+    left: -65px;
+}
+
+/* ---Footer--- */
+
+#footer {
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    font-size: 30px;
+    font-weight: 300;
+}

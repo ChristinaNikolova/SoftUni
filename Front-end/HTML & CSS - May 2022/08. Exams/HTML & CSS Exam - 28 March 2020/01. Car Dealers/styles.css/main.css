@@ -1,0 +1,75 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --clr-black: #000;
+    --clr-grey: #666666;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: var(--clr-grey);
+}
+
+.section {
+    width: 1200px;
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 44px;
+    font-weight: 400;
+    color: var(--clr-black);
+}
+
+.section-content-wrapper,
+.section-img {
+    flex-basis: 50%;
+    height: 520px;
+}
+
+.section-content-wrapper {
+    padding-right: 30px;
+}
+
+.section-content-title {
+    font-size: 20.5px;
+    line-height: 1.3;
+    color: var(--clr-black);
+    margin-bottom: 20px;
+}
+
+.section-content {
+    font-size: 18.5px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.section-li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.section-li-img {
+    width: 60px;
+}
+
+.section-li-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.section-li-content {
+    font-size: 18px;
+}

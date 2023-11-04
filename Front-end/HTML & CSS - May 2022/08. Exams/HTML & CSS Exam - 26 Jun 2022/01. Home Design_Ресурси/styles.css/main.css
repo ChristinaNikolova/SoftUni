@@ -1,0 +1,109 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+:root {
+    --clr-white: #fff;
+    --clr-grey: #F5F5F5;
+    --clr-red: #CC3441;
+    --clr-black: #040404;
+}
+
+html {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Courgette', cursive;
+    color: var(--clr-black);
+}
+
+.section {
+    height: 58vh;
+    width: 1200px;
+    margin: 150px auto;
+    background-color: var(--clr-grey);
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.section-title-wrapper {
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.section-title-design {
+    color: var(--clr-red);
+    font-weight: 600;
+    font-size: 24px;
+    position: relative;
+    left: 120px;
+}
+
+.section-ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 32px;
+}
+
+.section-li {
+    width: 33%;
+    border-radius: 12px;
+    background-color: var(--clr-white);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.section-li-img {
+    width: 297px;
+    height: 180px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.section-li-content-wrapper {
+    height: 145px;
+}
+
+.section-li-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.section-li-devider {
+    margin: 0 auto;
+    background-color: var(--clr-red);
+    width: 270px;
+    height: 1px;
+    margin-bottom: 16px;
+}
+
+.section-li-content {
+    font-size: 14.3px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.section-li-link {
+    color: var(--clr-black);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.section-li-link i {
+    background-color: var(--clr-red);
+    color: var(--clr-white);
+    border-radius: 100%;
+    padding: 2px 6px;
+    margin-left: 6px;
+}

@@ -1,0 +1,100 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+:root {
+    --clr-white: #fff;
+    --clr-black: #000;
+    --clr-pink: #D41872;
+    --clr-grey: #A7ADB4;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.section {
+    width: 1920px;
+    height: 80vh;
+    background-image: url(../image.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: var(--clr-black);
+    opacity: .6;
+}
+
+.section-wrapper {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+
+.section-title {
+    color: var(--clr-white);
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.section-form {
+    width: 360px;
+    padding: 10px 0px 24px 0px;
+    border-radius: 8px;
+    background-color: var(--clr-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.section-form-input-wrapper {
+    position: relative;
+}
+
+.section-form-input {
+    width: 100%;
+    border: none;
+    padding: 40px 0px 14px 80px;
+    border-bottom: 1px solid var(--clr-grey);
+}
+
+.section-form-input::placeholder {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.section-form i {
+    font-size: 17px;
+    color: var(--clr-grey);
+    position: absolute;
+    top: 36px;
+    left: 31px;
+}
+
+.section-form-btn {
+    align-self: center;
+    width: 40%;
+    padding: 10px;
+    margin-top: 24px;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--clr-pink);
+    color: var(--clr-white);
+    text-transform: uppercase;
+    cursor: pointer;
+}

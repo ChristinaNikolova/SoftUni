@@ -1,0 +1,96 @@
+@media screen and (max-width: 600px) {
+    .container-fluid.hero img {
+        display: none;
+    }
+
+    .navbar-light .navbar-brand {
+        margin-right: unset;
+    }
+
+    .navbar.navbar-expand-lg.navbar-light {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-fluid.hero h1 {
+        margin-top: 80px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .container-fluid.hero p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    .hero-btns a {
+        width: 65%;
+        text-align: center;
+    }
+
+    #about-us h2 {
+        text-align: center;
+        font-size: 2.7rem;
+    }
+
+    #about-us .container .row {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #about-us .container .row .col-12.col-sm-6.col-lg-4 {
+        max-width: unset;
+    }
+
+    .service-box {
+        padding-bottom: 100px;
+    }
+
+    .side2-img img {
+        position: absolute;
+        right: 7px;
+        top: 1683px;
+    }
+
+    .about {
+        margin-bottom: 80px;
+    }
+
+    .about .row .col-12.col-sm-12.col-lg-6:first-of-type {
+        margin-bottom: 100px;
+    }
+
+    .about .row .col-12.col-sm-12.col-lg-6:last-of-type {
+        text-align: center;
+    }
+
+    #contact-us {
+        text-align: center;
+    }
+
+    #contact-us .hero-btns.contact-btn {
+        display: none;
+    }
+
+    footer h3 {
+        line-height: 1.2;
+        font-size: 3.5rem;
+    }
+
+    footer .contact-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer h6{
+        padding-bottom: 20px;
+    }
+}

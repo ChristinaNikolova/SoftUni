@@ -1,0 +1,255 @@
+@import url('./reset.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+:root {
+    --clr-black: #2C383B;
+    --clr-grey: #ECECEC;
+    --clr-dark-grey: #66706E;
+    --clr-orange: #E24E2A;
+    --clr-green: #1B9772;
+    --clr-white: #fff;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: var(--clr-black);
+}
+
+/* ---Components--- */
+.section {
+    position: relative;
+    top: 246px;
+}
+
+.flex-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.li-content {
+    color: var(--clr-grey);
+    opacity: .2;
+    font-size: 18px;
+    line-height: 1.7;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+/* ---Header--- */
+
+#header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-main-logo {
+    font-weight: 600;
+    font-size: 54px;
+}
+
+.header-sub-logo {
+    font-size: 18px;
+    color: var(--clr-dark-grey);
+}
+
+.header-logo-divider {
+    display: inline-block;
+    background-color: var(--clr-grey);
+    height: 46px;
+    width: 3px;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.header-li {
+    background-color: var(--clr-grey);
+    width: 210px;
+    padding: 28px 12px;
+    text-align: center;
+}
+
+.header-li a {
+    color: var(--clr-black);
+    font-size: 24px;
+}
+
+.header-ul .header-li:first-of-type {
+    background-color: var(--clr-orange);
+}
+
+.header-ul .header-li:first-of-type a {
+    color: var(--clr-white);
+}
+
+/* ---Main--- */
+/* ------Hero------ */
+
+#hero {
+    height: 62vh;
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    padding: 50px 200px 70px 200px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 2;
+    letter-spacing: .5px;
+    color: var(--clr-white);
+    background-color: var(--clr-orange);
+    position: absolute;
+    bottom: -246px;
+}
+
+/* ------Icons------ */
+
+#icons {
+    height: 62vh;
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+}
+
+.icons-ul {
+    height: 62vh;
+}
+
+.icons-li {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-li i {
+    background-color: var(--clr-orange);
+    padding: 26px;
+    font-size: 90px;
+    margin-bottom: 30px;
+}
+
+.icons-divider {
+    background-color: rgba(102, 112, 110, .2);
+    width: 360px;
+    height: 2px;
+    margin-bottom: 30px;
+}
+
+.icons-li-title {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* ------Contact------ */
+
+#contact {
+    height: 36vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title {
+    font-size: 54px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    margin-bottom: 8px;
+}
+
+.contact-content {
+    color: rgba(102, 112, 110, .2);
+    font-size: 28px;
+    margin-bottom: 36px;
+}
+
+.contact-btn {
+    width: 380px;
+    border: none;
+    color: var(--clr-white);
+    background-color: var(--clr-green);
+    padding: 26px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+/* ------Benefits------ */
+
+#benefits {
+    height: 36vh;
+    background-color: var(--clr-black);
+}
+
+.benefits-ul {
+    height: 36vh;
+}
+
+.benefits-li {
+    text-align: center;
+}
+
+.benefits-li-title {
+    color: var(--clr-white);
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 46px;
+}
+
+.benefits-li-content {
+    color: var(--clr-white);
+}
+
+/* ---Footer--- */
+
+#footer {
+    height: 20vh;
+    position: relative;
+    top: 246px;
+    background-color: var(--clr-green);
+    color: var(--clr-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    opacity: .4;
+    font-size: 28px;
+}

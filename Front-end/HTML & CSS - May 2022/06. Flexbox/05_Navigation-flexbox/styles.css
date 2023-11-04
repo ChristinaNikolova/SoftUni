@@ -1,0 +1,42 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.header-logo {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header .header-ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+header .header-li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+main h1 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+main p {
+    line-height: 1.5;
+}

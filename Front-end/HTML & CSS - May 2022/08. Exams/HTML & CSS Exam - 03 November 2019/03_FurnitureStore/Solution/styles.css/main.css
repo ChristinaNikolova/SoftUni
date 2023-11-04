@@ -1,0 +1,253 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+:root {
+    --clr-white: #fff;
+    --clr-grey: #B6AFAF;
+    --clr-dark-grey: #757575;
+    --clr-orange: #F93700;
+    --clr-pink: #F0E4E4;
+    --clr-black: #1D1D1B;
+}
+
+html {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* ---Components--- */
+
+.section {
+    width: 1740px;
+    margin: 0 auto;
+}
+
+/* ---Header--- */
+
+#header {
+    height: 7vh;
+    background-color: var(--clr-orange);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+}
+
+.header-li a {
+    color: var(--clr-white);
+    font-size: 18px;
+}
+
+.header-form {
+    width: 700px;
+    display: flex;
+    position: relative;
+}
+
+.header-form-input {
+    width: 100%;
+    padding: 12px;
+}
+
+.header-form-input::placeholder {
+    color: var(--clr-grey);
+    font-size: 17px;
+}
+
+.header-from-btn {
+    border: none;
+    background-color: var(--clr-grey);
+    color: var(--clr-white);
+    width: 90px;
+    height: 43.33px;
+    font-size: 17px;
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.header-li i {
+    margin-right: 12px;
+}
+
+/* ---Main--- */
+
+#main {
+    background-color: var(--clr-pink);
+}
+
+/* ------Rooms------ */
+
+#rooms {
+    height: 46vh;
+    padding-top: 36px;
+}
+
+.rooms-ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 36px;
+}
+
+.rooms-li-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.rooms-li-title {
+    color: var(--clr-grey);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+/* ------Fall------ */
+
+#fall {
+    height: 66vh;
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fall-content-wrapper {
+    padding-top: 90px;
+}
+
+.fall-title {
+    color: var(--clr-orange);
+    font-size: 56px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+}
+
+.fall-content {
+    color: var(--clr-grey);
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.fall-btn {
+    width: 140px;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--clr-orange);
+    color: var(--clr-white);
+    font-size: 20px;
+}
+
+.fall-img {
+    width: 1130px;
+    height: 60vh;
+    object-fit: cover;
+}
+
+/* ------Benefits------ */
+
+#benefits {
+    height: 34vh;
+    color: var(--clr-black);
+}
+
+.benefits-ul {
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    background-color: var(--clr-grey);
+    opacity: .8;
+    border-radius: 1px;
+}
+
+.benefits-li {
+    text-align: center;
+}
+
+.benefits-li-img {
+    width: 150px;
+    height: 150px;
+    background-color: var(--clr-pink);
+    border-radius: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.benefits-li-title {
+    font-size: 22px;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+}
+
+.benefits-li-content {
+    font-size: 18px;
+}
+
+.benefits-ul .benefits-li:nth-child(2) {
+    position: relative;
+    left: 35px;
+}
+
+/* ---Footer--- */
+
+#footer {
+    height: 10vh;
+    padding-left: 82px;
+    padding-right: 82px;
+    background-color: var(--clr-pink);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: var(--clr-dark-grey);
+}
+
+.footer-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.footer-li a {
+    color: var(--clr-dark-grey);
+    font-size: 20px;
+}
+
+.footer-li.title {
+    font-size: 23px;
+    font-weight: 550;
+    letter-spacing: -.5px;
+}
+
+.footer-li-btn {
+    border: none;
+    border-radius: 4px;
+    background-color: var(--clr-grey);
+    opacity: .8;
+    width: 130px;
+    padding: 10px;
+    font-size: 17px;
+    position: relative;
+    top: 8px
+}
+
+.footer-li i {
+    font-size: 25px;
+}

@@ -1,0 +1,315 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+:root {
+    --clr-white: #fff;
+    --clr-light-grey: #F4F5F7;
+    --clr-grey: #D2D2D2;
+    --clr-light-blue: #44ACF8;
+    --clr-dark-blue: #29394B;
+    --clr-black: #404D5E;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: var(--clr-black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ---Components--- */
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 170px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 34px;
+}
+
+.content {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 26px;
+}
+
+/* ---Header--- */
+
+#header {
+    height: 9vh;
+    width: 1750px;
+    padding-left: 42px;
+    padding-right: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.27);
+    box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.27);
+    background-color: var(--clr-white);
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+}
+
+.header-ul {
+    gap: 26px;
+}
+
+.header-li {
+    position: relative;
+}
+
+.header-li a {
+    color: var(--clr-black);
+    font-size: 22px;
+}
+
+.header-ul .header-li:nth-child(3)::before {
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-top: 5px solid var(--clr-light-blue);
+}
+
+.header-ul .header-li:last-of-type a {
+    border-radius: 100%;
+    padding: 12px;
+    color: var(--clr-white);
+    background-color: var(--clr-light-blue);
+    -webkit-box-shadow: 5px 5px 16px 5px rgba(68, 172, 248, 0.31);
+    box-shadow: 5px 5px 16px 5px rgba(68, 172, 248, 0.31);
+}
+
+/* ---Main--- */
+/* ------Certificates------ */
+
+#certificates {
+    height: 64vh;
+    margin-bottom: 150px;
+    position: relative;
+    padding-top: 300px;
+    padding-left: 170px;
+    padding-right: 170px;
+    color: var(--clr-white);
+}
+
+#certificates::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/hero-certificates.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .1;
+}
+
+.certificates-content-wrapper {
+    width: 910px;
+    padding: 26px 40px 28px 22px;
+    background-color: var(--clr-dark-blue);
+    border-radius: 8px;
+    position: relative;
+    z-index: 10;
+    -webkit-box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.16);
+    box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.16);
+    position: absolute;
+    top: 190px;
+    left: 168px;
+}
+
+.certificates-title {
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 26px;
+}
+
+.certificates-img-wrapper {
+    position: absolute;
+    right: 179px;
+    bottom: 77px;
+}
+
+.blue {
+    width: 260px;
+    -webkit-box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.16);
+    box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.16);
+}
+
+.dark {
+    width: 288px;
+    position: relative;
+    left: -4px;
+    -webkit-box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.16);
+    box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.16);
+}
+
+.certificates-content-italic {
+    position: absolute;
+    bottom: 30px;
+    color: var(--clr-black);
+    font-size: 22px;
+    font-style: italic;
+}
+
+/* ------Diploma------ */
+
+#diploma {
+    width: 1650px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.diploma-title {
+    margin-bottom: 40px;
+}
+
+.diploma-content-wrapper {
+    border-radius: 2px;
+    background-color: var(--clr-light-grey);
+    padding: 30px;
+    margin-bottom: 24px;
+}
+
+/* ------Explore------ */
+
+#explore {
+    height: 32vh;
+    width: 1650px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    color: var(--clr-white);
+    background-image: url(../images/sign-up-prompt-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    -webkit-box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.16);
+    box-shadow: 5px 5px 12px 5px rgba(0, 0, 0, 0.16);
+}
+
+#explore::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--clr-black);
+    opacity: .6;
+    border-radius: 8px;
+}
+
+.explore-wrapper {
+    height: 32vh;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    opacity: .8;
+}
+
+.explore-title {
+    margin-bottom: 20px;
+}
+
+.explore-content {
+    text-align: center;
+    width: 1000px;
+    margin-bottom: 40px;
+}
+
+.explore-btn-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.explore-btn {
+    width: 220px;
+    padding: 12px 24px;
+    border: 1px solid var(--clr-white);
+    border-radius: 6px;
+    color: var(--clr-white);
+    font-size: 17px;
+    background-color: transparent;
+}
+
+.btn-fill {
+    width: 160px;
+    border: none;
+    background-color: var(--clr-white);
+    color: var(--clr-light-blue);
+}
+
+.devider {
+    background-color: var(--clr-white);
+    opacity: .8;
+    width: 2px;
+    height: 28px;
+}
+
+/* ---Footer--- */
+
+#footer {
+    height: 12vh;
+    width: 1650px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#footer::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid var(--clr-black);
+}
+
+.footer-logo-wrapper,
+.footer-ul {
+    gap: 26px;
+}
+
+.footer-logo-content {
+    color: var(--clr-grey);
+}
+
+.footer-li a {
+    color: var(--clr-black);
+    font-size: 19px;
+}

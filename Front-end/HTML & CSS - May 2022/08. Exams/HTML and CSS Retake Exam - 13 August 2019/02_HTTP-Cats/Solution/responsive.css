@@ -1,0 +1,78 @@
+@media screen and (max-width: 768px) {
+    body {
+        padding-top: 200px;
+    }
+
+    header>.logo {
+        margin-bottom: 100px;
+    }
+
+    header>.logo a {
+        font-size: 5rem;
+    }
+
+    header>.logo span {
+        font-size: 1.2rem;
+    }
+
+    .wrapper>header.special {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    header.special h2 {
+        font-size: 50px;
+    }
+
+    .wrapper>header h2:after {
+        width: 38%;
+    }
+
+    .wrapper>header p {
+        font-size: 1.2rem;
+    }
+
+    .wrapper.style2 h2 {
+        font-size: 50px;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .wrapper.style2 {
+        padding: 1rem;
+    }
+
+    .gallery>* {
+        width: unset;
+    }
+
+    .spotlight {
+        flex-direction: column;
+    }
+
+    .spotlight>* {
+        width: 100%;
+    }
+
+    .spotlight .inner {
+        padding: 2rem;
+    }
+
+    .spotlight h3 {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .spotlight p {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 1.5rem;
+    }
+}

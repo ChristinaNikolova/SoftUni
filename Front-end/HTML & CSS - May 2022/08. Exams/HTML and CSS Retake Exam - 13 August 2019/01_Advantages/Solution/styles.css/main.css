@@ -1,0 +1,73 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+:root {
+    --clr-black: #46586F;
+    --clr-grey: #F4F5F7;
+    --clr-blue: #42ABF8;
+    --clr-green: #23BE5E;
+    --clr-white: #fff;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.section {
+    width: 1200px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.section-content {
+    color: var(--clr-white);
+    background-color: var(--clr-blue);
+    width: 150px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 12px;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    position: absolute;
+    top: -46px;
+    right: 0px;
+}
+
+.section-li {
+    background-color: var(--clr-grey);
+    margin-bottom: 2px;
+    padding: 15px;
+    color: var(--clr-black);
+}
+
+.section-ul .section-li:first-of-type {
+    border-top-left-radius: 6px;
+}
+
+.section-ul .section-li:last-of-type {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.section-ul .section-li:nth-child(2),
+.section-ul .section-li:nth-child(6) {
+    margin-bottom: unset;
+}
+
+.section-li-wrapper {
+    display: inline-block;
+    width: 1100px;
+}
+
+.section-li i {
+    color: var(--clr-white);
+    background-color: var(--clr-green);
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+}

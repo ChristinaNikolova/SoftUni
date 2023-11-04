@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    width: 1500px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border: 3px solid #000;
+    -webkit-box-shadow: 5px 5px 19px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 19px 5px rgba(0, 0, 0, 0.25);
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+ul {
+    list-style: square;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1200px;
+    padding-left: 100px;
+}
+
+.page header {
+    flex: 1 0 100%;
+    border-bottom: 2px solid #000;
+}
+
+.header p {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.page main {
+    flex: 1 0 60%;
+    margin-right: 100px;
+}
+
+.page aside {
+    flex: 1 0 30%;
+}
+
+.first h1 {
+    font-size: 30px;
+}
+
+.first img {
+    float: right;
+    margin-left: 36px;
+    margin-bottom: 20px;
+}
+
+.second .content-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.content-wrapper p,
+.content-wrapper blockquote {
+    flex: 1 0 40%;
+}
+
+.content-wrapper blockquote {
+    font-style: italic;
+    color: grey;
+    border-left: 2px solid lightgrey;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.content-wrapper blockquote p {
+    text-align: right;
+    margin-top: 50px;
+}
+
+.third img {
+    float: left;
+    margin-right: 36px;
+    margin-bottom: 20px;
+}

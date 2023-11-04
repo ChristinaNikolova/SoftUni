@@ -1,0 +1,49 @@
+@media screen and (max-width: 600px) {
+    .w3-top .w3-right.w3-hide-small {
+        display: none;
+    }
+
+    .w3-bar-item.w3-button {
+        font-size: 22px;
+    }
+
+    .w3-xxlarge {
+        font-size: 49px;
+    }
+
+    .w3-col.m6 {
+        width: unset;
+    }
+
+    #about {
+        padding-top: 40px;
+    }
+
+    #about .w3-round.w3-image.w3-opacity-min {
+        display: none;
+    }
+
+    #about .w3-large {
+        font-size: 22.5px;
+    }
+
+    #menu .w3-col.l6 {
+        width: unset;
+    }
+
+    #menu h4 {
+        font-size: 28px;
+    }
+
+    #menu .w3-text-grey {
+        font-size: 19px;
+    }
+
+    #contact p {
+        font-size: 18.7px;
+    }
+
+    #contact b {
+        font-size: 21px;
+    }
+}

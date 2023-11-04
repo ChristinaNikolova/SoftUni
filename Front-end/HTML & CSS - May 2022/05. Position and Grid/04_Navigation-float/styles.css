@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    width: 1200px;
+    margin: 10px auto;
+}
+
+h1,
+h2,
+h3,
+blockquote {
+    font-family: Georgia, serif;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    border: 3px solid black;
+}
+
+.header {
+    border-bottom: 2px solid #000;
+    position: relative;
+}
+
+.header-site-logo {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -.7px;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+.header nav {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+
+.header-ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.header-ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header-ul li:last-of-type {
+    margin-right: unset;
+}
+
+.header-ul a {
+    font-size: 15px;
+}
+
+main {
+    display: inline-block;
+    width: 800px;
+}
+
+aside {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-left: 90px;
+    padding-top: 20px;
+}
+
+.article-header-title {
+    font-size: 30px;
+}
+
+.article-header img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 120px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+blockquote {
+    display: inline-block;
+    width: 40%;
+    color: grey;
+    font-style: italic;
+    vertical-align: top;
+    border-left: 2px solid grey;
+    padding-left: 30px;
+}
+
+blockquote p {
+    text-align: right;
+    padding-top: 40px;
+}
+
+.left-content {
+    display: inline-block;
+    width: 40%;
+}
+
+.second-section img {
+    float: left;
+    margin-right: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+aside li {
+    margin-bottom: 6px;
+    list-style: square;
+}

@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container,
+.week,
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container {
+    max-width: 65vw;
+}
+
+.notes {
+    flex-direction: column;
+}
+
+.week span:first-of-type,
+.week span:nth-child(7) {
+    flex: 1 0 100%;
+    font-weight: bold;
+}
+
+.week span:nth-child(2),
+.week span:nth-child(3),
+.week span:nth-child(4),
+.week span:nth-child(5),
+.week span:nth-child(6) {
+    flex: 1 0 20%;
+}
+
+.week span:nth-child(8),
+.week span:nth-child(9) {
+    flex: 1 0 50%;
+}
+
+.week span {
+    height: 12vh;
+}
+
+.notes {
+    height: 48vh;
+}
+
+.notes span {
+    flex: 1 0 50%;
+    align-self: stretch;
+    width: 131px;
+    font-weight: bold;
+}
+
+span {
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 10px;
+}

@@ -1,0 +1,61 @@
+@media screen and (max-width: 768px) {
+
+    header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    header h1 {
+        font-size: 3.7em;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row_articles {
+        flex-direction: column;
+    }
+
+    .big_article .article {
+        height: 26em
+    }
+
+    .big_article .article .article_text {
+        margin-top: 18px;
+    }
+
+    .big_article .article .article_text h3 {
+        font-size: 26px;
+    }
+
+    .article {
+        margin-bottom: 70px;
+    }
+
+    .article {
+        width: 30.5em;
+        height: 26em
+    }
+
+    .article h3 {
+        font-size: 31px;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    footer li {
+        font-size: 20px;
+    }
+
+    footer ul li:first-of-type{
+        font-size: 30px;
+    }
+}

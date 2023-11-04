@@ -1,0 +1,79 @@
+@media screen and (max-width: 600px) {
+
+    .banner {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .banner h2 {
+        width: 90%;
+        font-size: 35px;
+    }
+
+    .actions li {
+        width: 90%;
+    }
+
+    .actions a.button.special {
+        width: 100%;
+    }
+
+    .wrapper.special {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    .wrapper.special .major {
+        margin-bottom: 20px;
+    }
+
+    .features {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature {
+        width: 90%;
+    }
+
+    .feature p {
+        font-size: 16px;
+    }
+
+    .wrapper>.inner {
+        width: unset;
+    }
+
+    .wrapper>.inner.narrow {
+        width: unset;
+    }
+
+    .grid-form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 90%;
+    }
+
+    .grid-form .form-control {
+        width: 90%;
+    }
+
+    .actions li input {
+        width: 100%;
+    }
+
+    .footer:before {
+        left: 9%;
+        width: 83%;
+    }
+
+    .footer{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+}

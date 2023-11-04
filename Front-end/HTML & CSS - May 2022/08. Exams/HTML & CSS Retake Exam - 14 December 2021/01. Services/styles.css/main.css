@@ -1,0 +1,81 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --clr-white: #fff;
+    --clr-light-grey: #F7F7F7;
+    --clr-grey: #919191;
+    --clr-dark-grey: #373B3D;
+    --clr-green: #ABC452;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#section {
+    width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+    color: var(--clr-dark-grey);
+}
+
+.section-title {
+    line-height: 1.2;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.green {
+    color: var(--clr-green);
+}
+
+.section-content {
+    color: var(--clr-grey);
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.section-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.section-li {
+    background-color: var(--clr-light-grey);
+    text-align: left;
+}
+
+.section-li-img {
+    width: 100%;
+}
+
+.section-li-content-wrapper {
+    padding: 30px 26px;
+}
+
+.section-li-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.section-li-content {
+    color: var(--clr-grey);
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.section-li-btn {
+    border: none;
+    border-radius: 22px;
+    background-color: var(--clr-green);
+    color: var(--clr-white);
+    font-weight: 600;
+    padding: 15px 30px;
+}

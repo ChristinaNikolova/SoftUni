@@ -1,0 +1,106 @@
+@media all and (max-width: 768px) {
+    .site-navigation {
+        display: none;
+    }
+
+    .site-main {
+        margin: unset;
+    }
+
+    .entry-header {
+        border-radius: unset;
+        height: 10vh;
+    }
+
+    .entry-header .button {
+        padding: 0.7rem 1.2rem;
+    }
+
+    .entry-header-container {
+        top: -136px;
+        left: -21px;
+    }
+
+    .entry-header-title {
+        font-size: 3.1rem;
+    }
+
+    .entry-header-title::first-letter {
+        font-size: 6rem;
+    }
+
+    .entry-header-description {
+        font-size: 1.2rem;
+        left: 75px;
+    }
+
+    .site-logos {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .site-information {
+        flex-direction: column;
+    }
+
+    .site-form {
+        margin-top: unset;
+    }
+
+    .site-information-text {
+        text-align: center;
+    }
+
+    .entry-description {
+        width: 100%;
+    }
+
+    .entry-title {
+        font-size: 2rem;
+    }
+
+    .site-form .entry-subtitle {
+        font-style: 1.4rem;
+    }
+
+    .site-form form>p {
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .site-form label {
+        margin-bottom: 10px;
+    }
+
+    .site-form button {
+        margin-left: 164px;
+    }
+
+    .site-blog-container {
+        margin-top: unset;
+    }
+
+    .site-posts {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .site-post {
+        width: 70%;
+    }
+
+    .site-post p {
+        padding: 0.6rem 0.4rem;
+        font-size: 12px;
+    }
+
+    .site-post h2 {
+        font-size: 16px;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

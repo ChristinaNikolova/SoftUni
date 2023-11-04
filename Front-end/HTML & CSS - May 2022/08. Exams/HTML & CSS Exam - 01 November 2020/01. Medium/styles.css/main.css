@@ -1,0 +1,85 @@
+@import url('./reset.css');
+
+:root {
+    --clr-black: #292929;
+    --clr-grey: #8C9399;
+    --clr-light-green: #CEFDE9;
+    --clr-green: #03A87C;
+    --clr-white: #fff;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: var(--clr-grey);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    color: var(--clr-black);
+}
+
+.section {
+    width: 900px;
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+
+section::after {
+    content: '';
+    position: absolute;
+    bottom: -68px;
+    left: 257px;
+    border-bottom: 1.3px solid var(--clr-grey);
+    width: 353px;
+}
+
+.section-title-wrapper {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.section-content-wrapper {
+    width: 50.1%;
+}
+
+.section-content-title {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 26px;
+}
+
+.green {
+    background-color: var(--clr-light-green);
+}
+
+.section-btn {
+    width: 240px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--clr-green);
+    color: var(--clr-white);
+    font-weight: 600;
+    font-size: 20px;
+}

@@ -1,0 +1,37 @@
+@media screen and (max-width: 414px) {
+    .main-movie-poster {
+        display: none;
+    }
+
+    .main-movie ul li {
+        padding: unset;
+    }
+
+    .main-movie-trailer iframe {
+        width: 414px;
+        height: 370px;
+    }
+
+    .movies.trending,
+    .movies.classics {
+        margin-top: 70px;
+        margin-bottom: unset;
+    }
+
+    .movies.trending h2,
+    .movies.classics h2 {
+        font-size: 30px;
+    }
+
+    .movies.trending .movie-list,
+    .movies.classics .movie-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .movies.trending .movie-list .movie,
+    .movies.classics .movie-list .movie {
+        width: 80%;
+    }
+}

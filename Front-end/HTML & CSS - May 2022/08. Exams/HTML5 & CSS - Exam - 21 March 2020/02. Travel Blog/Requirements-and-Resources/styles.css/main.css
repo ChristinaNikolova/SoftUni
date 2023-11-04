@@ -1,0 +1,185 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+:root {
+    --clr-white: #fff;
+    --clr-light-grey: #E1E1E1;
+    --cl-grey-letters: #AEAFAF;
+    --clr-grey: #8C8C8C;
+    --clr-dark-grey: #53595C;
+    --clr-blue: #146594;
+}
+
+html {
+    font-family: 'Gelasio', serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: var(--clr-grey-letters);
+    position: relative;
+}
+
+/* ---Components--- */
+
+/* ---Header--- */
+
+#header {
+    width: 1920px;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.header-logo {
+    width: 50px;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.header-li a {
+    color: var(--cl-grey-letters);
+    font-size: 18px;
+}
+
+.header-li-btn {
+    border: none;
+    font-size: 20px;
+    color: var(--cl-grey-letters);
+    background-color: transparent;
+}
+
+/* ---Main--- */
+/* ------Hero------ */
+
+#hero {
+    height: 69.2vh;
+    background-image: url(../images/map.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 403px;
+}
+
+.hero-title {
+    margin-bottom: 8px;
+    color: var(--clr-white);
+    font-size: 84px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.56);
+}
+
+.hero-btn {
+    width: 122px;
+    padding: 14px 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--clr-blue);
+    color: var(--clr-white);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* ------Articles------ */
+
+#articles {
+    height: 82vh;
+    background-color: var(--clr-light-grey);
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles-main-title {
+    flex-basis: 100%;
+    color: var(--clr-dark-grey);
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.articles-vertical-content {
+    height: 68vh;
+    width: 620px;
+    background-image: url(../images/packing.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.articles-horizontal-content {
+    height: calc(68vh/2);
+    width: 880px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.articles-horizontal-wrapper .articles-horizontal-content:first-of-type {
+    background-image: url(../images/planning.jpg);
+}
+
+.articles-horizontal-wrapper .articles-horizontal-content:last-of-type {
+    background-image: url(../images/budget.jpg);
+}
+
+.articles-title {
+    text-align: center;
+    color: var(--clr-white);
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.56);
+}
+
+.articles-vertical-content .articles-title {
+    padding-top: 70px;
+}
+
+.articles-horizontal-wrapper .articles-horizontal-content:last-of-type .articles-title {
+    text-align: unset;
+    padding-left: 12px;
+    padding-top: 290px;
+}
+
+/* ---Footer--- */
+
+#footer {
+    height: 8vh;
+    background-color: var(--clr-grey);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-li {
+    padding-right: 8px;
+    border-right: 2px solid var(--cl-grey-letters);
+}
+
+.footer-ul .footer-li:last-of-type {
+    padding-right: unset;
+    border-right: unset;
+}
+
+.footer-li,
+.footer-li a {
+    color: var(--cl-grey-letters);
+}
