@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Box", "Box\Box.csproj", "{C6717A28-90E3-4EDD-8592-1FDDF2F63022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayCreator", "ArrayCreator\ArrayCreator.csproj", "{179ED916-1F89-4CDB-A0EE-CD8C0E1E7816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericScale", "GenericScale\GenericScale.csproj", "{1A79AA5E-136A-4FD6-80C7-0511484BE544}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6717A28-90E3-4EDD-8592-1FDDF2F63022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6717A28-90E3-4EDD-8592-1FDDF2F63022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6717A28-90E3-4EDD-8592-1FDDF2F63022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6717A28-90E3-4EDD-8592-1FDDF2F63022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{179ED916-1F89-4CDB-A0EE-CD8C0E1E7816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{179ED916-1F89-4CDB-A0EE-CD8C0E1E7816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{179ED916-1F89-4CDB-A0EE-CD8C0E1E7816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{179ED916-1F89-4CDB-A0EE-CD8C0E1E7816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A79AA5E-136A-4FD6-80C7-0511484BE544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A79AA5E-136A-4FD6-80C7-0511484BE544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A79AA5E-136A-4FD6-80C7-0511484BE544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A79AA5E-136A-4FD6-80C7-0511484BE544}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FE9D0F7-3166-4CC5-B763-ED322C5D38A9}
+	EndGlobalSection
+EndGlobal
