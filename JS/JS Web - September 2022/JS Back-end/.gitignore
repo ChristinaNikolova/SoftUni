@@ -325,6 +325,10 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
+# Custom
+*.pptx
+*.zip
+
 # OpenCover UI analysis results
 OpenCover/
 
