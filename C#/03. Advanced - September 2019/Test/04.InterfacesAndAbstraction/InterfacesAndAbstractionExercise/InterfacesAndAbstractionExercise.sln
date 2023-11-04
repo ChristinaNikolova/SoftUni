@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefineAnInterfaceIPerson", "DefineAnInterfaceIPerson\DefineAnInterfaceIPerson.csproj", "{6DE75F4A-AD1D-414B-9070-96A74002DC85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ferrari", "Ferrari\Ferrari.csproj", "{781FAE1D-EF12-461A-A6D1-7511C6B483E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telephony", "Telephony\Telephony.csproj", "{80919930-D65E-4484-B851-E77D8AD6081E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorderControl", "BorderControl\BorderControl.csproj", "{1418813D-3A7D-46DB-A38D-9F1BE407F251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilitaryElite", "MilitaryElite\MilitaryElite.csproj", "{F2BCA136-1448-4DFB-82C6-3AA953F19AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionHierarchy", "CollectionHierarchy\CollectionHierarchy.csproj", "{6A84E27A-4080-42BF-B0DF-06CBD6CEF255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplicitInterfaces", "ExplicitInterfaces\ExplicitInterfaces.csproj", "{72583B33-3E71-4715-ADAF-F660A27CE66D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DE75F4A-AD1D-414B-9070-96A74002DC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE75F4A-AD1D-414B-9070-96A74002DC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE75F4A-AD1D-414B-9070-96A74002DC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE75F4A-AD1D-414B-9070-96A74002DC85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781FAE1D-EF12-461A-A6D1-7511C6B483E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781FAE1D-EF12-461A-A6D1-7511C6B483E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781FAE1D-EF12-461A-A6D1-7511C6B483E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781FAE1D-EF12-461A-A6D1-7511C6B483E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80919930-D65E-4484-B851-E77D8AD6081E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80919930-D65E-4484-B851-E77D8AD6081E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80919930-D65E-4484-B851-E77D8AD6081E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80919930-D65E-4484-B851-E77D8AD6081E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1418813D-3A7D-46DB-A38D-9F1BE407F251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1418813D-3A7D-46DB-A38D-9F1BE407F251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1418813D-3A7D-46DB-A38D-9F1BE407F251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1418813D-3A7D-46DB-A38D-9F1BE407F251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BCA136-1448-4DFB-82C6-3AA953F19AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BCA136-1448-4DFB-82C6-3AA953F19AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BCA136-1448-4DFB-82C6-3AA953F19AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BCA136-1448-4DFB-82C6-3AA953F19AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A84E27A-4080-42BF-B0DF-06CBD6CEF255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A84E27A-4080-42BF-B0DF-06CBD6CEF255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A84E27A-4080-42BF-B0DF-06CBD6CEF255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A84E27A-4080-42BF-B0DF-06CBD6CEF255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72583B33-3E71-4715-ADAF-F660A27CE66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72583B33-3E71-4715-ADAF-F660A27CE66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72583B33-3E71-4715-ADAF-F660A27CE66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72583B33-3E71-4715-ADAF-F660A27CE66D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8ADEF50F-5467-4BC8-9449-0DABDCC7507D}
+	EndGlobalSection
+EndGlobal
