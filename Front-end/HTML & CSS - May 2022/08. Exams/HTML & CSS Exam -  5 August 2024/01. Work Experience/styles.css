@@ -1,0 +1,133 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Margarine&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css");
+
+:root {
+  --clr-white: #fff;
+  --clr-pink: #fff0e4;
+  --clr-blue: #2991e6;
+  --clr-braun: #756f69;
+  --clr-black: #000102;
+}
+
+body {
+  width: 1920px;
+  margin: 8rem auto;
+  font-family: "Margarine", sans-serif;
+  color: var(--clr-black);
+  background-color: var(--clr-pink);
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#aside,
+#main {
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 9px 10px 151px -75px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 10px 151px -75px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 10px 151px -75px rgba(0, 0, 0, 0.75);
+}
+
+#aside {
+  width: 30%;
+}
+
+#main {
+  width: 60%;
+}
+
+#work {
+  padding: 4rem 2rem 3rem 2rem;
+}
+
+.work-title {
+  text-align: center;
+  font-size: 2.125rem;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+}
+
+.work-li:not(:last-of-type) {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--clr-black);
+}
+
+.work-li-title {
+  color: var(--clr-braun);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.work-li-date {
+  color: var(--clr-blue);
+  margin-bottom: 1rem;
+}
+
+.work-li-desc {
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+#aside {
+  padding: 1.5rem;
+}
+
+.aside-title {
+  font-size: 2.125rem;
+  font-weight: 400;
+  margin-bottom: 1.125rem;
+}
+
+.aside-personal-ul {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--clr-black);
+}
+
+.aside-personal-li {
+  margin-bottom: 1.125rem;
+}
+
+.aside-personal-li i {
+  color: var(--clr-blue);
+  margin-right: 1.125rem;
+}
+
+.aside-tools-li {
+  margin-bottom: 1.5rem;
+}
+
+.aside-tools-li-title {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.aside-tools-li-text {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  text-align: center;
+  border-radius: 2.125rem;
+  color: var(--clr-white);
+  background-color: var(--clr-blue);
+}
+
+.aside-tools-li:first-of-type .aside-tools-li-text {
+  width: 90%;
+}
+
+.aside-tools-li:nth-of-type(2) .aside-tools-li-text {
+  width: 80%;
+}
+
+.aside-tools-li:nth-of-type(3) .aside-tools-li-text {
+  width: 75%;
+}
+
+.aside-tools-li:last-of-type .aside-tools-li-text {
+  width: 50%;
+}
