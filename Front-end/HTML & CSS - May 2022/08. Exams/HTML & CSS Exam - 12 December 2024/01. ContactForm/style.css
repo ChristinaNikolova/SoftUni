@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+@import url(./reset.css);
+
+body {
+  width: 50vw;
+  height: 100vh;
+  margin: 100px auto;
+  font-family: "Source Sans 3", sans-serif;
+  color: #585858;
+  background-color: #f6f6f6;
+}
+
+/* Components */
+
+.title {
+  margin-bottom: 1.75rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+}
+
+#main {
+  margin-bottom: 2.5rem;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 20vh;
+}
+
+#form .form-wrapper {
+  width: 70%;
+}
+
+.form-wrapper .title {
+  margin-bottom: 2.5rem;
+}
+
+#form .form {
+  display: grid;
+  grid-template:
+    "name name name email email email"
+    "msg msg msg msg msg msg"
+    "btn . . . . .";
+  gap: 1.25rem 1rem;
+}
+
+.form input {
+  padding-bottom: 0.75rem;
+  border: none;
+  border-bottom: 2px solid #eee;
+  background-color: transparent;
+}
+
+.form input:first-of-type {
+  grid-area: name;
+}
+
+.form input:nth-of-type(2) {
+  grid-area: email;
+}
+
+.form input:last-of-type {
+  grid-area: msg;
+}
+
+.form .btn {
+  grid-area: btn;
+  border: none;
+  width: 6rem;
+  padding: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  background-color: #585858;
+  color: #fff;
+}
+
+#form .icons-wrapper {
+  width: 30%;
+}
+
+#form .icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.icon-list .icon-element {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 3.7rem;
+  height: 3rem;
+  border: 1.5px solid #eee;
+}
+
+.icon-element i {
+  font-size: 1.25rem;
+  color: #585858;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1rem;
+  color: #a7abb8;
+}
+
+.footer-text .footer-text-detail {
+  text-decoration: underline;
+  color: #585858;
+}
