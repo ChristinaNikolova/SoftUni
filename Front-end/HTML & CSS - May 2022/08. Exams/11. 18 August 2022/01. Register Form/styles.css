@@ -1,0 +1,97 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+:root {
+  --clr-white: #f4f6f6;
+  --clr-red: #ae3c33;
+  --clr-grey: #8d8581;
+  --clr-black: #333333;
+}
+
+body {
+  width: 1920px;
+  margin: 3rem auto;
+  font-family: "Mulish", sans-serif;
+}
+
+#section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72vh;
+  background-image: url(./images/background.png);
+}
+
+.section-form {
+  width: 44%;
+  padding: 4rem 2.5rem;
+  background-image: url(./images/form-background.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  -webkit-box-shadow: 5px 5px 22px 5px rgba(0, 0, 0, 0.37);
+  box-shadow: 5px 5px 22px 5px rgba(0, 0, 0, 0.37);
+}
+
+.section-form-content-wrapper {
+  width: 44%;
+}
+
+.form-title {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.section-form-input-wrapper {
+  margin-bottom: 1.5rem;
+}
+
+.section-form .section-form-input-wrapper:first-of-type {
+  display: inline-block;
+  width: 46.5%;
+  margin-right: 1rem;
+}
+
+.section-form .section-form-input-wrapper:nth-of-type(2) {
+  display: inline-block;
+  width: 46.5%;
+}
+
+.section-form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--clr-grey);
+}
+
+.section-form-input {
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: transparent;
+  border-radius: 1rem;
+  border: 1px solid var(--clr-grey);
+}
+
+.section-form-input-wrapper:last-of-type label {
+  display: inline-block;
+}
+
+.section-form-input-wrapper:last-of-type input {
+  width: 5%;
+}
+
+.section-form-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  background-color: var(--clr-red);
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}

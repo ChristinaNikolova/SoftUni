@@ -1,0 +1,151 @@
+@media screen and (max-width: 600px) {
+  header {
+    /* height: 100vh; */
+  }
+  .div-header {
+    display: none;
+  }
+
+  header h3 {
+    font-size: 0.75rem;
+    margin-bottom: 0.25rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .options {
+    flex-direction: column;
+    align-items: center;
+    padding-top: unset;
+  }
+
+  .options article {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .options article h4 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .options article a {
+    display: none;
+  }
+
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery article > img {
+    width: 300px;
+    height: 160px;
+  }
+
+  .gallery article a {
+    display: none;
+  }
+
+  .blog-title {
+    padding-top: 1.75rem;
+    padding-left: 4rem;
+  }
+
+  .blog-title h4 {
+    font-size: 1.75rem;
+  }
+
+  .blog-title h4 span {
+    display: none;
+  }
+
+  .blog-title a {
+    display: none;
+  }
+
+  .blog img {
+    display: none;
+  }
+
+  #about-blog {
+    width: 92%;
+  }
+
+  #about-blog h3 {
+    font-size: 0.95rem;
+  }
+
+  .magazine {
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .magazine-title {
+    padding: unset;
+    padding-right: 4rem;
+  }
+
+  .magazine-title h4 {
+    padding-left: 3.125rem;
+    font-size: 1.125rem;
+  }
+
+  .magazine-title a {
+    display: none;
+  }
+
+  .magazine article {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  #magazine-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 70%;
+  }
+
+  .magazine-info {
+    margin-left: unset;
+  }
+
+  .magazine-info img {
+    width: 100%;
+    height: 12rem;
+  }
+
+  .magazine-info h3 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .magazine-info p {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .magazine-info button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  footer .icons a {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}

@@ -1,0 +1,111 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css");
+
+:root {
+  --clr-white: #fff;
+  --clr-grey: #f5f5f5;
+  --clr-red: #cb2027;
+  --clr-black: #000;
+}
+
+body {
+  width: 1920px;
+  margin: 3rem auto;
+  font-family: "Courgette", cursive;
+  color: var(--clr-black);
+}
+
+#section {
+  padding: 4rem;
+  text-align: center;
+  background-color: var(--clr-grey);
+}
+
+.section-title-wrapper {
+  width: 26%;
+  margin: 0 auto 3.5rem auto;
+}
+
+.section-title {
+  margin-bottom: 0.25rem;
+  font-size: 4.75rem;
+  font-weight: 400;
+}
+
+.section-title-detail {
+  font-size: 2.5rem;
+  text-align: right;
+  color: var(--clr-red);
+}
+
+.section-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-li {
+  width: 30%;
+  padding-bottom: 2rem;
+  text-align: center;
+  background-color: var(--clr-white);
+  border-radius: 1rem;
+}
+
+.section-li-img {
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.section-li-title {
+  margin: 1rem 1.5rem 1.5rem 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.75rem;
+  border-bottom: 2px solid var(--clr-red);
+}
+
+.section-li-content {
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.section-li:first-of-type .section-li-content {
+  margin-bottom: 4rem;
+}
+
+.section-li-btn {
+  font-family: "Courgette", cursive;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.section-li-btn-icon-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  color: var(--clr-white);
+  background-color: var(--clr-red);
+  border-radius: 100%;
+}
+
+.section-li-btn-icon-wrapper i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+}

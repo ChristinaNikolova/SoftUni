@@ -1,0 +1,235 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+
+:root {
+  --clr-white: #fff;
+  --clr-green: #56dbb1;
+  --clr-dark-green: #1b9772;
+  --clr-brown: #974d1b;
+  --clr-light-grey: #ececec;
+  --clr-grey: #696969;
+  --clr-dark-grey: #353434;
+  --clr-black: #01121a;
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Components */
+
+.position-relative {
+  position: relative;
+  top: 252px;
+}
+
+.section-grey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  color: var(--clr-white);
+  background-color: var(--clr-dark-grey);
+}
+
+.ul-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.li-item {
+  width: 22%;
+  text-align: center;
+}
+
+.li-content-text {
+  font-size: 1.125rem;
+  line-height: 2;
+  color: var(--clr-light-grey);
+  opacity: 0.3;
+}
+
+/* Header */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.75rem 4rem;
+}
+
+.header-logo {
+  padding-right: 1.125rem;
+  margin-right: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--clr-black);
+  border-right: 3px solid var(--clr-light-grey);
+}
+
+.header-logo-detail {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: var(--clr-grey);
+}
+
+.header-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.125rem;
+}
+
+.header-li {
+  padding: 1.35rem 2rem;
+  background-color: var(--clr-light-grey);
+}
+
+.header-li a {
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--clr-grey);
+}
+
+.header-li:first-of-type {
+  background-color: var(--clr-green);
+}
+
+.header-li:first-of-type a {
+  color: var(--clr-black);
+}
+
+/* Main */
+/* ------------Jumbo------------ */
+
+#jumbo {
+  position: relative;
+  width: 100%;
+  height: 49vh;
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.jumbo-content {
+  position: absolute;
+  left: 0;
+  bottom: -252px;
+  padding: 5rem 13.6rem;
+  text-align: center;
+  font-size: 1.23rem;
+  font-weight: 900;
+  line-height: 1.7;
+  color: var(--clr-black);
+  background-color: var(--clr-green);
+}
+
+/* ------------Icons------------ */
+
+#icons {
+  height: 44vh;
+}
+
+.icons-li-warpper {
+  position: relative;
+  width: 7rem;
+  height: 7rem;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  background-color: var(--clr-green);
+}
+
+.icons-li-warpper i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: var(--clr-white);
+}
+
+.icons-li-title {
+  padding-bottom: 1.75rem;
+  margin-bottom: 1.75rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  border-bottom: 1.5px solid var(--clr-light-grey);
+}
+
+/* ------------Button------------ */
+
+#button {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  color: var(--clr-grey);
+}
+
+.button-title {
+  margin-bottom: 0.5rem;
+  font-size: 2.65rem;
+}
+
+.button-content {
+  margin-bottom: 3.5rem;
+  font-weight: 600;
+  font-size: 1.32rem;
+  color: var(--clr-grey);
+  opacity: 0.6;
+}
+
+.button-btn {
+  padding: 1.5rem 3.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--clr-white);
+  background-color: var(--clr-brown);
+  border: none;
+  cursor: pointer;
+}
+
+/* ------------List------------ */
+
+#list {
+  height: 40vh;
+}
+
+.list-li-title {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+/* Footer */
+
+#footer {
+  position: relative;
+  top: 251px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  color: var(--clr-green);
+  background-color: var(--clr-dark-green);
+}
+
+.footer-content {
+  font-weight: 600;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+}
+
+#footer .footer-detail {
+  color: var(--clr-white);
+  opacity: 1;
+}

@@ -1,0 +1,77 @@
+@import url(./reset.css);
+
+:root {
+  --clr-white: #fff;
+  --clr-pink: #b6416d;
+  --clr-blue: #1881b6;
+  --clr-black: #000;
+}
+
+body {
+  width: 1920px;
+  margin: 50px auto;
+  font-family: Helvetica, sans-serif;
+  color: var(--clr-black);
+}
+
+#section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 2rem;
+  background-color: var(--clr-blue);
+  border-radius: 1rem;
+  border: 6px solid var(--clr-black);
+}
+
+.section-content-wrapper {
+  padding-top: 4rem;
+  padding-left: 2rem;
+}
+
+.section-sub-title {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+.section-main-title {
+  margin-bottom: 2rem;
+  font-size: 3.6em;
+  font-weight: 400;
+  letter-spacing: -2px;
+  color: var(--clr-white);
+}
+
+.section-content {
+  width: 85%;
+  margin-bottom: 3rem;
+  text-indent: 4rem;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+.section-img {
+  width: 35rem;
+  height: 35rem;
+}
+
+.section-content-btn-wrapper {
+  padding-left: 7rem;
+}
+
+.section-btn {
+  padding: 0.75rem 1.5rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--clr-black);
+  background-color: transparent;
+  border-radius: 0.3rem;
+  border: 2px solid var(--clr-black);
+  cursor: pointer;
+}
+
+.primary-btn {
+  margin-right: 7rem;
+  color: var(--clr-white);
+  background-color: var(--clr-pink);
+}

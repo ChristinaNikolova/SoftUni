@@ -1,0 +1,263 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --clr-white: #fff;
+  --clr-light-green: #81d8a0;
+  --clr-green: #1db954;
+  --clr-grey: #cccbcb;
+  --clr-dark-grey: #636074;
+  --clr-black: #191414;
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+  color: var(--clr-black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+
+#header {
+  display: flex;
+  background-color: var(--clr-black);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.125rem 1rem;
+}
+
+.header-logo {
+  width: 8%;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding-right: 1.5rem;
+}
+
+.header-li a {
+  font-size: 1.125rem;
+  color: var(--clr-white);
+}
+
+/* Main */
+
+#main {
+  position: relative;
+  overflow: hidden;
+}
+
+/* ------------Jumbo------------ */
+
+#jumbo {
+  position: relative;
+  margin-bottom: 32rem;
+}
+
+.jumbo-title {
+  padding: 3rem 0rem 20rem 0rem;
+  font-size: 1.75rem;
+  text-align: center;
+  color: var(--clr-white);
+  background-color: var(--clr-green);
+}
+
+.jumbo-article-wrapper {
+  position: absolute;
+  left: 5px;
+  bottom: -296px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11rem;
+}
+
+.jumbo-card {
+  width: 30%;
+  color: var(--clr-dark-grey);
+  background-color: var(--clr-white);
+  border: 1.5px solid var(--clr-black);
+  border-radius: 1rem;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.16);
+}
+
+.jumbo-article-main {
+  padding: 2.5rem 3.5rem;
+}
+
+.jumbo-card-title {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.jumbo-card:first-of-type .jumbo-card-title {
+  margin-bottom: 3.25rem;
+}
+
+.jumbo-card-ul {
+  list-style: circle;
+  margin-bottom: 3rem;
+}
+
+.jumbo-card-ul > * {
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+}
+
+.jumbo-card-btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.5rem 3.125rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--clr-white);
+  background-color: var(--clr-green);
+  border-radius: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.jumbo-card-footer {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.3rem;
+  color: var(--clr-white);
+  background-color: var(--clr-black);
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.jumbo-card-footer-spam:first-of-type {
+  border-right: 1.5px solid var(--clr-white);
+  margin-right: 0.75rem;
+  padding-right: 0.5rem;
+}
+
+.jumbo-music-wrapper {
+  position: absolute;
+  left: -4px;
+  top: 80px;
+}
+
+.jumbo-music-img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+
+/* ------------About------------ */
+
+#about {
+  position: relative;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-bottom: 8rem;
+}
+
+.about-content-wrapper {
+  width: 60%;
+}
+
+.about-title {
+  margin-bottom: 2rem;
+}
+
+.about-ul > * {
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.about-img {
+  position: absolute;
+  bottom: 0;
+  right: 156px;
+  width: 25%;
+}
+
+/* ------------Experience------------ */
+
+#experience {
+  text-align: center;
+}
+
+.experience-title {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+.experience-content {
+  display: inline-block;
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+}
+
+.experience-ul {
+  width: 75%;
+  margin: 0 auto 8rem auto;
+}
+
+.experience-ul > * {
+  padding: 1rem;
+  font-size: 1.4rem;
+  text-align: start;
+}
+
+.experience-li:nth-of-type(2n + 1) {
+  background-color: var(--clr-grey);
+}
+
+.experience-li:nth-of-type(2n) {
+  background-color: var(--clr-light-green);
+}
+
+.experience-li:first-of-type {
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+}
+
+.experience-li:last-of-type {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.experience-li-text {
+  display: inline-block;
+  width: 76%;
+}
+
+.experience-li .experience-li-img:first-of-type {
+  margin-right: 11rem;
+}
+
+/* Footer */
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  background-color: var(--clr-black);
+}
+
+.footer-content {
+  font-size: 1.25rem;
+  color: var(--clr-white);
+}

@@ -1,0 +1,99 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+:root {
+  --clr-white: #fff;
+  --clr-mint: #d5ebea;
+  --clr-black: #000;
+  --border-style: 2.5px solid var(--clr-black);
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  color: var(--clr-black);
+  font-family: "Agbalumo", system-ui;
+}
+
+#us {
+  width: 60%;
+  margin: 6rem auto;
+  border: var(--border-style);
+}
+
+.us-article-header {
+  padding: 2rem 2rem 0 2rem;
+  text-align: center;
+  background-color: var(--clr-mint);
+}
+
+.us-article-header > * {
+  border-bottom: 2.5px solid var(--clr-black);
+}
+
+.us-article-header-main-title {
+  font-size: 3.5rem;
+}
+
+.us-article-header-sub-title {
+  font-size: 1.85rem;
+  font-weight: 500;
+}
+
+.us-article-main {
+  display: flex;
+  justify-content: center;
+  gap: 1.75rem;
+  padding: 4rem 2rem 8rem 2rem;
+}
+
+.us-article-figure {
+  padding: 0.75rem;
+  border: var(--border-style);
+}
+
+.us-article-img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.us-article-figcaption {
+  font-size: 1rem;
+  text-indent: 2rem;
+}
+
+.us-article-content {
+  margin: 0 auto;
+  text-indent: 2rem;
+  font-size: 1.45rem;
+  padding-top: 2rem;
+}
+
+.us-article-footer {
+  position: relative;
+  padding: 1.125rem 4rem;
+  font-size: 1.5rem;
+  background-color: var(--clr-mint);
+}
+
+.us-article-footer-title {
+  position: absolute;
+  top: -64px;
+  left: 0;
+  padding: 0.5rem 5.75rem;
+  font-size: 2rem;
+  color: var(--clr-white);
+  background-color: var(--clr-black);
+}
+
+.us-article-footer-li {
+  margin-bottom: 0.75rem;
+}
+
+.us-article-footer-li:last-of-type {
+  margin-bottom: unset;
+}
+
+.us-article-footer-li-detail {
+  font-weight: 700;
+}

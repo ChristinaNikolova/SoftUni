@@ -1,0 +1,74 @@
+@media screen and (max-width: 600px) {
+  #top-bar ul:first-of-type li:nth-child(4) {
+    display: none;
+  }
+
+  #main-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #main-menu img {
+    padding: unset;
+  }
+
+  #main-menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: unset;
+  }
+
+  #main-menu ul li {
+    width: 7rem;
+    text-align: center;
+    border: 1px solid #e72236;
+  }
+
+  #left-aside {
+    display: block;
+  }
+
+  #left-aside article {
+    display: inline-block;
+    width: 20%;
+    margin-right: 0.5rem;
+    border-bottom: unset;
+  }
+
+  #news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: unset;
+  }
+
+  #news article {
+    width: 85%;
+    margin: unset;
+    margin-bottom: 1rem;
+  }
+
+  #right-aside {
+    width: 100%;
+    margin: 0;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer ul:nth-of-type(2) {
+    width: 50%;
+    margin-top: unset;
+    margin-bottom: unset;
+  }
+}

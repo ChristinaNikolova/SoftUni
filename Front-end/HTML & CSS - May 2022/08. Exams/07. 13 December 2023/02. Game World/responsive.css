@@ -1,0 +1,131 @@
+@media screen and (max-width: 600px) {
+  .col-lg-3,
+  .col-md-4,
+  .col-md-6,
+  .col-sm-6,
+  .col-12 {
+    padding: unset;
+  }
+
+  .game-world-header.container.placeholder {
+    height: 12rem;
+  }
+
+  .tm-header {
+    bottom: unset;
+    top: 0px;
+  }
+
+  .tm-header-inner {
+    padding-top: 3px;
+    padding-bottom: 3rem;
+  }
+
+  .row.tm-header-inner {
+    display: block;
+    text-align: center;
+  }
+
+  .tm-site-logo {
+    width: 80px;
+  }
+
+  .tm-nav-ul {
+    justify-content: center;
+  }
+
+  .row.tm-welcome-section {
+    display: block;
+    max-width: unset;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .row.tm-welcome-section .tm-section-title {
+    margin-left: unset;
+    font-size: 3.5rem;
+  }
+
+  .row.tm-welcome-section p.col-12.text-center {
+    font-size: 1.5rem;
+  }
+
+  .tm-paging-item .tm-paging-link {
+    font-size: 1.65rem;
+  }
+
+  .row.tm-gallery,
+  .row.tm-header-inner {
+    margin-right: unset;
+    margin-left: unset;
+  }
+
+  .tm-gallery {
+    margin-left: unset;
+    margin-bottom: 60px;
+  }
+
+  .tm-gallery-page {
+    margin: unset;
+  }
+
+  .tm-gallery-item {
+    width: 100%;
+    max-width: unset;
+  }
+
+  .col-lg-3.col-md-4.col-sm-6.col-12.tm-gallery-item {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .img-fluid {
+    width: 100%;
+  }
+
+  .tm-gallery-title {
+    text-align: center;
+  }
+
+  .tm-description-box .tm-gallery-title {
+    text-align: left;
+  }
+
+  .tm-description-box a {
+    font-size: 1.25rem;
+  }
+
+  .tm-gallery-description {
+    font-size: 1.2rem;
+  }
+
+  .tm-gallery-price {
+    font-size: 1.75rem;
+  }
+
+  .tm-cta-section {
+    width: unset;
+  }
+
+  .tm-description-figure {
+    width: unset;
+  }
+
+  .tm-cta-section.tm-section.tm-container-inner .row {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .tm-gallery-title {
+    font-size: 2.2rem;
+  }
+
+  .tm-mb-45 {
+    font-size: 1.5rem;
+  }
+
+  .tm-footer {
+    font-size: 1.5rem;
+  }
+}

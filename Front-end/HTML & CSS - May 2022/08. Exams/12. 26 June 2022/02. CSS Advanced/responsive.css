@@ -1,0 +1,75 @@
+@media screen and (max-width: 600px) {
+  main {
+    width: 100%;
+  }
+
+  .left-to-right:first-of-type:first-child {
+    position: relative;
+    height: 500px;
+  }
+
+  main .left-to-right:first-of-type article {
+    position: absolute;
+    left: 50%;
+    top: 56px;
+    transform: translateX(-50%);
+    width: 68%;
+    height: 420px;
+    border-radius: 16%;
+    padding: 30px 40px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .left-to-right p {
+    font-size: 1.125rem;
+  }
+
+  .left-to-right button {
+    display: none;
+  }
+
+  main section:nth-child(2),
+  main section:nth-child(4) {
+    flex-direction: column;
+  }
+
+  main section:nth-child(2) article,
+  main section:nth-child(4) article {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+  }
+
+  main section:nth-child(2) button,
+  main section:nth-child(4) button {
+    display: none;
+  }
+
+  main section.left-to-right:nth-child(3) {
+    position: relative;
+  }
+
+  main section.left-to-right:nth-child(3) article {
+    position: absolute;
+    left: 50%;
+    top: 228px;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 320px;
+    border-radius: 16%;
+    padding: 60px 30px;
+  }
+
+  form {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  section form label input,
+  section form textarea {
+    width: 100%;
+  }
+}

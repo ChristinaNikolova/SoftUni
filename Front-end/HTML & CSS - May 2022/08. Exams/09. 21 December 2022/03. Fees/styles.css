@@ -1,0 +1,315 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --clr-white: #fff;
+  --clr-green: #0fa448;
+  --clr-blue: #6097c9;
+  --clr-purple-btn: #9a5dc6;
+  --clr-purple: #513eab;
+  --clr-grey: #54546d;
+  --clr-grey-odd: #e6e6e6;
+  --clr-grey-even: #f8f8f8;
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+  color: var(--clr-grey);
+}
+
+/* Components */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.position-relative {
+  position: relative;
+  top: 320px;
+  left: 0px;
+  margin-bottom: 9rem;
+}
+
+.section-title {
+  margin-bottom: 1.75rem;
+  font-weight: 500;
+  font-size: 2.25rem;
+  letter-spacing: -1px;
+}
+
+.section-content {
+  margin-bottom: 3.5rem;
+  font-size: 1.4rem;
+}
+
+/* Header */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.header-logo {
+  width: 10rem;
+  height: 6rem;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header-li a {
+  font-weight: 600;
+  color: var(--clr-grey);
+}
+
+/* Main */
+/* ------------Fees------------ */
+
+#fees {
+  position: relative;
+  height: 36vh;
+  text-align: center;
+  background-color: var(--clr-grey);
+}
+
+.fees-icon {
+  position: absolute;
+  left: -101px;
+  top: 90px;
+  width: 14rem;
+}
+
+.fees-title {
+  padding-top: 5.2rem;
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: var(--clr-white);
+}
+
+.fees-ul {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.fees-li {
+  width: 28.5%;
+  padding-top: 2rem;
+  background-color: var(--clr-white);
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.16);
+}
+
+.fees-li-content-wrapper {
+  height: 22vh;
+}
+
+.fees-li-title {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.fees-li:first-of-type .fees-li-title {
+  margin-bottom: 0.75rem;
+}
+
+.fees-li-btn {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 1rem 2.5rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  background-color: var(--clr-purple-btn);
+  border: none;
+  border-radius: 2rem;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+
+.fees-li-content {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  font-size: 1.45rem;
+}
+
+.fees-li-bottom-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 1.75rem 1rem;
+  color: var(--clr-white);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.fees-li:first-of-type .fees-li-bottom-ul {
+  background-color: var(--clr-green);
+  background: linear-gradient(
+    90deg,
+    rgba(10, 161, 68, 1) 0%,
+    rgba(41, 186, 96, 1) 50%,
+    rgba(73, 213, 126, 1) 100%
+  );
+}
+
+.fees-li:nth-of-type(2) .fees-li-bottom-ul {
+  background-color: var(--clr-blue);
+  background: linear-gradient(
+    90deg,
+    rgba(77, 108, 137, 1) 0%,
+    rgba(88, 132, 174, 1) 50%,
+    rgba(97, 153, 205, 1) 100%
+  );
+}
+
+.fees-li:last-of-type .fees-li-bottom-ul {
+  background-color: var(--clr-purple);
+  background: linear-gradient(
+    90deg,
+    rgba(75, 56, 166, 1) 0%,
+    rgba(110, 93, 198, 1) 50%,
+    rgba(138, 123, 224, 1) 100%
+  );
+}
+
+.fees-li-bottom-li-title {
+  margin-bottom: 0.75rem;
+  font-size: 2.25rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.fees-li:nth-of-type(2) .fees-li-bottom-ul .fees-li-bottom-li:first-of-type,
+.fees-li:last-of-type .fees-li-bottom-ul .fees-li-bottom-li:first-of-type {
+  position: relative;
+}
+
+.fees-li:nth-of-type(2)
+  .fees-li-bottom-ul
+  .fees-li-bottom-li:first-of-type::after,
+.fees-li:last-of-type
+  .fees-li-bottom-ul
+  .fees-li-bottom-li:first-of-type::after {
+  position: absolute;
+  right: -17px;
+  top: -8px;
+  height: 6rem;
+  border-right: 1.5px solid var(--clr-white);
+  content: "";
+}
+
+.fees-li-bottom-li-content {
+  font-size: 1.45rem;
+}
+
+/* ------------Study------------ */
+
+.study-content-wrapper {
+  width: 74%;
+  margin: 0 auto;
+}
+
+.study-ul .study-li:nth-child(2n + 1) {
+  background-color: var(--clr-grey-odd);
+}
+
+.study-ul .study-li:nth-child(2n) {
+  background-color: var(--clr-grey-even);
+}
+
+.study-li {
+  padding: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.study-ul .study-li:first-of-type {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.study-ul .study-li:last-of-type {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.study-li-content {
+  display: inline-block;
+  width: 74%;
+}
+
+.study-li img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.study-li-first-icon {
+  margin-right: 13rem;
+}
+
+/* ------------Bank------------ */
+
+#bank {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.bank-content-wrapper {
+  width: 64.8%;
+  padding-left: 7rem;
+}
+
+.bank-content:first-of-type {
+  margin-bottom: 2rem;
+}
+
+.bank-content:nth-of-type(2) {
+  margin-bottom: 0rem;
+}
+
+.bank-logo {
+  width: 27%;
+}
+
+/* Footer */
+
+#footer {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+  text-align: center;
+  color: var(--clr-white);
+  background-color: var(--clr-grey);
+}
+
+.footer-content {
+  font-size: 1.25rem;
+  opacity: 0.5;
+}

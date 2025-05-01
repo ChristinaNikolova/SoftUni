@@ -1,0 +1,139 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+:root {
+  --clr-grey-light: #92999e;
+  --clr-grey: #c1bdba;
+  --clr-dark-grey: #435359;
+  --clr-black: #24333c;
+  --clr-green: #1ab188;
+  --clr-hover-green: #179a77;
+  --clr-white: #fff;
+}
+
+body {
+  width: 1920px;
+  margin: 5rem auto;
+  font-family: "Kode Mono", monospace;
+  color: var(--clr-white);
+  background-color: var(--clr-grey);
+}
+
+.form-title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.form {
+  display: grid;
+  grid-template-areas:
+    "up in"
+    "title title"
+    "fName lName"
+    "email email"
+    "pass pass"
+    "start start";
+  width: 40%;
+  margin: 0 auto;
+  padding: 2.125rem;
+  text-align: center;
+  color: var(--clr-white);
+  background-color: var(--clr-black);
+  border-radius: 0.25rem;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.16);
+}
+
+/* Grid Template */
+
+.form-up-button {
+  grid-area: up;
+}
+
+.form-in-button {
+  grid-area: in;
+}
+
+.form-title {
+  grid-area: title;
+}
+
+.form-input-wrapper:first-of-type {
+  grid-area: fName;
+}
+
+.form-input-wrapper:nth-of-type(2) {
+  grid-area: lName;
+}
+
+.form-input-wrapper:nth-of-type(3) {
+  grid-area: email;
+}
+
+.form-input-wrapper:last-of-type {
+  grid-area: pass;
+}
+
+.form-start-button {
+  grid-area: start;
+}
+
+/* Grid Template */
+
+.form-input-wrapper {
+  position: relative;
+  margin-bottom: 2.75rem;
+}
+
+.form-input-wrapper:first-of-type {
+  margin-right: 1.75rem;
+}
+
+.form-input-wrapper label {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--clr-grey-light);
+}
+
+.label-detail {
+  color: var(--clr-green);
+  opacity: unset;
+}
+
+.form-input-wrapper input {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: transparent;
+  border: 1px solid var(--clr-grey);
+}
+
+.btn {
+  padding: 1rem 6rem;
+  font-family: "Kode Mono", monospace;
+  font-size: 1.125rem;
+  color: var(--clr-white);
+  background-color: var(--clr-green);
+  border: none;
+  cursor: pointer;
+}
+
+.form-in-button {
+  color: var(--clr-grey-light);
+  background-color: var(--clr-dark-grey);
+}
+
+.form-in-button:hover {
+  color: var(--clr-white);
+  background-color: var(--clr-hover-green);
+}
+
+.form-start-button {
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}

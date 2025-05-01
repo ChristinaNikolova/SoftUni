@@ -5,7 +5,7 @@ export default {
       isThinking: false,
       isAnswer: false,
       answer: "",
-      answers: ["yes", "no", "maybe", "ask me again", "i don't know"],
+      answers: ["yes", "no", "maybe", "ask me again", "i don't know"]
     };
   },
 
@@ -20,8 +20,8 @@ export default {
         this.answer =
           this.answers[Math.floor(Math.random() * this.answers.length)];
       }, 3000);
-    },
-  },
+    }
+  }
 };
 </script>
 

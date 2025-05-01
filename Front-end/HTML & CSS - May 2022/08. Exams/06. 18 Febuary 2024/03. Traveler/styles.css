@@ -1,0 +1,262 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+  --clr-white: #fff;
+  --clr-creme: #f8f0e9;
+  --clr-yellow: #fad87a;
+  --clr-pink: #e14747;
+  --clr-light-brown: #9c8480;
+  --clr-brown: #352b2a;
+  --clr-black: #000;
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  font-family: "Karla", sans-serif;
+  color: var(--clr-white);
+}
+
+/* Components */
+
+h1,
+h2,
+h3,
+blockquote {
+  font-family: "Cormorant Infant", serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  background-color: var(--clr-white);
+  border-radius: 0.25rem;
+  border: 1px solid var(--clr-black);
+}
+
+/* Header */
+
+#header {
+  position: relative;
+  z-index: 1000;
+  text-align: right;
+}
+
+.header-logo {
+  position: absolute;
+  left: 97px;
+  top: 25px;
+  width: 7rem;
+  height: 4rem;
+  object-fit: contain;
+}
+
+.header-nav {
+  display: inline-block;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 2.5rem 6.5rem;
+  font-size: 1.125rem;
+}
+.header-li a {
+  color: var(--clr-white);
+}
+
+/* Main */
+/* ------------Jumbo------------ */
+
+#jumbo {
+  position: relative;
+  z-index: 200;
+  height: 80vh;
+  text-align: center;
+}
+.jumbo-image-overlay {
+  position: absolute;
+  bottom: 0;
+  top: -164px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: var(--clr-black);
+  opacity: 0.5;
+}
+
+.jumbo-img {
+  position: absolute;
+  top: -164px;
+  left: 0;
+  width: 100%;
+  height: 93vh;
+}
+
+.jumbo-content-wrapper {
+  position: relative;
+  z-index: 200;
+  padding-top: 24rem;
+}
+
+.jumbo-title {
+  font-size: 7rem;
+  margin-bottom: 12.5rem;
+}
+
+.jumbo-content {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+/* ------------Blockquote------------ */
+
+#blockquote {
+  margin: 0 auto;
+  padding: 2.75rem 28rem 8rem 28rem;
+  color: var(--clr-brown);
+  background-color: var(--clr-creme);
+}
+
+.blockquote-testimonial {
+  display: inline-block;
+  margin-bottom: 5rem;
+  font-size: 1.5rem;
+  letter-spacing: -1.5px;
+}
+
+.blockquote-content {
+  line-height: 0.8;
+  font-weight: 600;
+  font-size: 4.75rem;
+  font-style: italic;
+}
+
+/* ------------Support------------ */
+
+#support {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  background-color: var(--clr-pink);
+}
+
+.support-title {
+  font-size: 2rem;
+  letter-spacing: -1.75px;
+  margin-bottom: 3rem;
+}
+
+.support-content {
+  width: 16%;
+  margin: 0 auto;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+/* ------------Article------------ */
+
+#article {
+  background-color: var(--clr-creme);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  color: var(--clr-brown);
+}
+
+.article-card {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.article-card-img {
+  width: 100%;
+  margin-bottom: 4.125rem;
+}
+
+.article-card-title {
+  margin-bottom: 5.5rem;
+  line-height: 1;
+  letter-spacing: -2px;
+  font-size: 4.5rem;
+}
+
+.article-card-content {
+  margin-bottom: 4rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.article-card-btn {
+  display: block;
+  text-align: left;
+}
+
+/* ------------Guide------------ */
+
+#guide {
+  padding: 8rem;
+  text-align: center;
+  background-color: var(--clr-pink);
+}
+
+.guide-title {
+  font-size: 4.12rem;
+  margin-bottom: 5rem;
+}
+
+.guide-content {
+  width: 60%;
+  margin: 0 auto 5rem auto;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.guide-btn {
+  padding: 1.125rem 1.75rem;
+  font-size: 1.125rem;
+  color: var(--clr-black);
+  background-color: var(--clr-yellow);
+  border: none;
+  border-radius: 1.75rem;
+}
+
+/* Footer */
+
+#footer {
+  padding: 3rem 8rem;
+  background-color: var(--clr-brown);
+}
+
+.footer-logo {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  margin-bottom: 2rem;
+}
+
+.footer-content {
+  width: 27%;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.footer-content-copy-rights {
+  color: var(--clr-light-brown);
+  font-size: 0.75rem;
+}

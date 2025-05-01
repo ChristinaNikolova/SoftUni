@@ -1,0 +1,154 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css");
+
+:root {
+  --clr-white: #fafafa;
+  --clr-grey: #e9e9e9;
+  --clr-dark-grey: #9b9b9b;
+  --clr-black: #121518;
+  --clr-black-img: #000;
+}
+
+body {
+  width: 1920px;
+  margin: 3rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--clr-grey);
+}
+
+#section {
+  display: flex;
+  width: 60%;
+  background-color: var(--clr-white);
+  -webkit-box-shadow: 5px 5px 22px 5px rgba(0, 0, 0, 0.37);
+  box-shadow: 5px 5px 22px 5px rgba(0, 0, 0, 0.37);
+  border-radius: 0.5rem;
+}
+
+.section-content-wrapper {
+  position: relative;
+  z-index: 10;
+  width: 50%;
+  padding: 2.5rem;
+  text-align: center;
+  color: var(--clr-white);
+  background-color: var(--clr-black);
+  background-image: url(./image/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+}
+
+.section-content-wrapper::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: var(--clr-black-img);
+  opacity: 0.8;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.section-content-wrapper * {
+  position: relative;
+  z-index: 10;
+}
+
+.section-logo {
+  text-align: left;
+  margin-bottom: 16rem;
+  font-weight: 700;
+}
+
+.section-title {
+  font-size: 3.125rem;
+  font-weight: 300;
+}
+
+.section-sub-title {
+  margin-bottom: 16rem;
+  font-size: 2.125rem;
+  font-weight: 300;
+}
+
+.section-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section-ul i {
+  font-size: 1.125rem;
+  color: var(--clr-white);
+}
+
+.section-form {
+  width: 50%;
+  padding: 5rem 3rem;
+}
+
+.section-form-input-wrapper {
+  margin-bottom: 1.75rem;
+}
+
+.section-form-input-wrapper:last-of-type {
+  margin-bottom: 5.5rem;
+}
+
+.section-form-label {
+  display: block;
+  margin-bottom: 1.2rem;
+  font-size: 1.125rem;
+  color: var(--clr-dark-grey);
+}
+
+.section-form-input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1.125rem;
+  font-size: 1.75rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--clr-dark-grey);
+}
+
+.section-form-input::placeholder {
+  color: var(--clr-dark-grey);
+}
+
+.section-form-btn {
+  border: none;
+  cursor: pointer;
+}
+
+.register-btn {
+  margin-right: 1.5rem;
+  padding: 1.125rem 3.35rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  background-color: var(--clr-black);
+  border-radius: 1.75rem;
+}
+
+.login-btn {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: underline;
+  color: var(--clr-dark-grey);
+  background-color: transparent;
+}

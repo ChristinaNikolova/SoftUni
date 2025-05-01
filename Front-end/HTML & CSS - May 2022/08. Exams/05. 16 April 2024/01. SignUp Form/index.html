@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>SignUp Form</title>
+  </head>
+  <body>
+    <main id="main">
+      <form class="form" action="submit" method="post">
+        <button class="btn form-up-button" type="button">Sign Up</button>
+        <button class="btn form-in-button" type="button">Log In</button>
+        <h2 class="form-title">Sign Up for Free</h2>
+        <div class="form-input-wrapper">
+          <label class="form-label" for="fName"
+            >First Name <span class="label-detail">*</span></label
+          >
+          <input class="form-input" name="fName" id="fName" type="text" />
+        </div>
+        <div class="form-input-wrapper">
+          <label class="form-label" for="lName"
+            >Last Name <span class="label-detail">*</span></label
+          >
+          <input class="form-input" name="lName" id="lName" type="text" />
+        </div>
+        <div class="form-input-wrapper">
+          <label class="form-label" for="email"
+            >Email Address <span class="label-detail">*</span></label
+          >
+          <input class="form-input" name="email" id="email" type="email" />
+        </div>
+        <div class="form-input-wrapper">
+          <label class="form-label" for="pass"
+            >Set A Password <span class="label-detail">*</span></label
+          >
+          <input class="form-input" name="pass" id="pass" type="password" />
+        </div>
+        <button class="btn form-start-button" type="button">Get Started</button>
+      </form>
+    </main>
+  </body>
+</html>

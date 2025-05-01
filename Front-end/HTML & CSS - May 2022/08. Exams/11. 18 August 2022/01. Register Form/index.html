@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Register Form</title>
+  </head>
+  <body>
+    <main id="main">
+      <section id="section">
+        <form class="section-form" action="submit" method="post">
+          <div class="section-form-content-wrapper">
+            <h2 class="form-title">Registration Form</h2>
+            <div class="section-form-input-wrapper">
+              <label class="section-form-label" for="fname">First Name</label>
+              <input
+                id="fname"
+                class="section-form-input"
+                type="text"
+                name="fname"
+              />
+            </div>
+            <div class="section-form-input-wrapper">
+              <label class="section-form-label" for="lname">Last Name</label>
+              <input
+                id="lname"
+                class="section-form-input"
+                type="text"
+                name="lname"
+              />
+            </div>
+            <div class="section-form-input-wrapper">
+              <label class="section-form-label" for="email">Email</label>
+              <input
+                id="email"
+                class="section-form-input"
+                type="email"
+                name="email"
+              />
+            </div>
+            <div class="section-form-input-wrapper">
+              <label class="section-form-label" for="pass">Password</label>
+              <input
+                id="pass"
+                class="section-form-input"
+                type="password"
+                name="pass"
+              />
+            </div>
+            <div class="section-form-input-wrapper">
+              <label class="section-form-label" for="conf-pass"
+                >Confirm Password</label
+              >
+              <input
+                id="conf-pass"
+                class="section-form-input"
+                type="password"
+                name="conf-pass"
+              />
+            </div>
+            <div class="section-form-input-wrapper">
+              <input
+                id="accept"
+                class="section-form-input"
+                type="checkbox"
+                name="accept"
+              />
+              <label class="section-form-label" for="accept"
+                >I accept the Terms of Use & Privacy Policy.</label
+              >
+            </div>
+            <button class="section-form-btn" type="button">Register Now</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

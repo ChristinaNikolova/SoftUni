@@ -1,0 +1,155 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --clr-white: #fff;
+  --clr-green: #86d862;
+  --clr-blue: #05a2d3;
+  --clr-light-grey: #f6f7f8;
+  --clr-grey: #e0e0df;
+  --clr-black: #000;
+}
+
+body {
+  width: 1920px;
+  margin: 10rem auto;
+  font-family: "Open Sans", sans-serif;
+  color: var(--clr-black);
+}
+
+button {
+  cursor: pointer;
+}
+
+#section {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 62vh;
+  margin: 0 auto;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  -webkit-box-shadow: 5px 5px 22px 5px rgba(0, 0, 0, 0.37);
+  box-shadow: 5px 5px 22px 5px rgba(0, 0, 0, 0.37);
+}
+
+.section-img-wrapper {
+  position: relative;
+  width: 55%;
+  height: 62vh;
+  overflow: hidden;
+}
+
+.section-img-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--clr-black);
+  opacity: 0.4;
+}
+
+.section-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-form {
+  width: 50%;
+  height: 62vh;
+  padding: 5rem 3rem;
+  background-color: var(--clr-light-grey);
+}
+
+.form-title {
+  margin-bottom: 4rem;
+  font-size: 2.25rem;
+  font-weight: 500;
+  letter-spacing: -1.5px;
+  text-align: center;
+}
+
+.form-top-btns-wrapper {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form-top-btns-wrapper button {
+  padding: 0.75rem 1.125rem;
+  font-size: 1.125rem;
+  border-radius: 1rem;
+  border: 1px solid var(--clr-black);
+}
+
+.standart-unit {
+  margin-right: 8rem;
+  background-color: var(--clr-green);
+}
+
+button.metric-unit {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: var(--clr-grey);
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 1.75rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: -1.5px;
+}
+
+.form-select-wrapper {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#gender {
+  width: 40%;
+  margin-right: 3rem;
+}
+
+#years {
+  width: 40%;
+}
+
+#pounds {
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 0.4rem;
+}
+
+#feet,
+#inches {
+  width: 47%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--clr-grey);
+}
+
+#feet {
+  margin-right: 2.125rem;
+}
+
+.form-calc-btn {
+  display: block;
+  width: 100%;
+  margin-top: 4.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--clr-white);
+  background-color: var(--clr-blue);
+  border: none;
+  border-radius: 1rem;
+  -webkit-box-shadow: 5px 5px 22px 5px rgba(0, 0, 0, 0.37);
+  box-shadow: 5px 5px 22px 5px rgba(0, 0, 0, 0.37);
+}

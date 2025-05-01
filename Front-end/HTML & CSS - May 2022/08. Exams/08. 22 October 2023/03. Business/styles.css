@@ -1,0 +1,257 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --clr-white: #fff;
+  --clr-brown: #b0825c;
+  --clr-grey: #dddddd;
+  --clr-dark-grey: #6a6a6afd;
+  --clr-black: #171720;
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  font-family: "PT Sans", sans-serif;
+}
+
+/* Components */
+
+h1,
+h2,
+h3 {
+  font-family: "PT Serif", serif;
+}
+
+.position-relative {
+  position: relative;
+  left: 0px;
+  top: 162px;
+  padding: 3.5rem 16.75rem;
+  text-align: center;
+}
+
+.brown-title {
+  margin-bottom: 2rem;
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: var(--clr-brown);
+}
+
+.grey-text-content {
+  margin-bottom: 5.125rem;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: var(--clr-dark-grey);
+}
+
+/* Header */
+
+#header {
+  position: relative;
+  z-index: 5;
+  text-align: right;
+}
+
+.header-logo {
+  position: absolute;
+  left: 53px;
+  top: 18px;
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+}
+
+.header-nav {
+  display: inline-block;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 3rem 4rem;
+}
+
+.header-li a {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: var(--clr-white);
+}
+
+/* Main */
+
+#main {
+  position: relative;
+}
+
+/* ------------Jumbo------------ */
+
+#jumbo {
+  position: relative;
+  height: 100vh;
+  color: var(--clr-white);
+}
+
+.jumbo-img {
+  position: absolute;
+  top: -119px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.jumbo-content-wrapper {
+  position: relative;
+  z-index: 5;
+  width: 50%;
+  padding-top: 5rem;
+  padding-left: 14.5rem;
+}
+
+.jumbo-title {
+  font-size: 3.85rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+
+.jumbo-content {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+/* ------------About------------ */
+
+#about {
+  position: absolute;
+  top: 830px;
+  left: 0px;
+  width: 100%;
+  padding: 8rem 14.5rem;
+  color: var(--clr-black);
+  background-color: var(--clr-white);
+  border-bottom: 2px solid var(--clr-grey);
+}
+
+.about-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.35rem;
+}
+
+.about-li {
+  width: 50%;
+}
+
+.about-li-title {
+  margin-bottom: 1.5rem;
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.about-li-content {
+  margin-bottom: 3.125rem;
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+
+.about-li-btn {
+  padding: 1.125rem 1.125rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--clr-brown);
+  background-color: transparent;
+  border: 2px solid var(--clr-brown);
+  cursor: pointer;
+}
+
+/* ------------Sponsors------------ */
+
+.sponsors-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.sponsors-li {
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+  background-color: var(--clr-grey);
+  border-radius: 100%;
+}
+
+.sponsors-li-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+}
+
+/* ------------Partners------------ */
+
+#partners {
+  padding-top: 1.5rem;
+}
+
+.partners-content {
+  margin-bottom: unset;
+}
+
+/* Footer */
+
+#footer {
+  padding: unset;
+  padding-bottom: 1rem;
+  color: var(--clr-dark-grey);
+  background-color: var(--clr-black);
+}
+
+.footer-ul {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding: 3.5rem 16.75rem 4rem 16.75rem;
+}
+
+.footer-ul::after {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  content: "";
+  border-bottom: 0.25px solid var(--clr-grey);
+}
+
+.footer-li {
+  text-align: left;
+}
+
+.footer-li-title {
+  margin-bottom: 1.75rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--clr-white);
+}
+
+.footer-li-ul-li {
+  font-size: 0.85rem;
+  margin-bottom: 1.125rem;
+  text-transform: uppercase;
+}
+
+.footer-copy-rights {
+  padding-left: 16.75rem;
+  text-align: left;
+}

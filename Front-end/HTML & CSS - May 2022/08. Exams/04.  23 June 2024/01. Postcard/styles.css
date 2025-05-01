@@ -1,0 +1,76 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+
+:root {
+  --clr-white: #fff;
+  --clr-light-grey: #f9f9f9;
+  --clr-grey: #f4f3f3;
+  --clr-dark-grey: #e0e0e0;
+  --clr-black: #2d2d2d;
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  font-family: "Gochi Hand", cursive;
+  color: var(--clr-black);
+  background-color: var(--clr-dark-grey);
+}
+
+#section {
+  margin: 50px auto;
+  width: 60%;
+}
+
+.image-wrapper {
+  position: relative;
+  background-color: var(--clr-white);
+  border-top-left-radius: 1.125rem;
+  border-top-right-radius: 1.125rem;
+  border-bottom: 1.5px solid var(--clr-dark-grey);
+}
+
+.section-image {
+  width: 100%;
+  padding: 1.75rem;
+  border-top-left-radius: 2.75rem;
+  border-top-right-radius: 2.75rem;
+}
+
+.image-content-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 58px;
+  width: 92%;
+  padding: 1.125rem 2.125rem;
+  text-align: center;
+  background-color: var(--clr-grey);
+  border-radius: 1.125rem;
+}
+
+.title-image {
+  font-size: 1.85rem;
+  margin-bottom: 1rem;
+}
+
+.content-image {
+  font-size: 1.22rem;
+}
+
+.content-wrapper {
+  padding: 1.5rem 3rem;
+  background-color: var(--clr-light-grey);
+  border-bottom-left-radius: 1.125rem;
+  border-bottom-right-radius: 1.125rem;
+}
+
+.content-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.content-li {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}

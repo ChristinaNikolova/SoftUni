@@ -1,0 +1,105 @@
+@media screen and (max-width: 800px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  nav.menu {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-options {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: unset;
+  }
+
+  header div h1 {
+    font-size: 4.5rem;
+  }
+
+  header div p {
+    font-size: 1.1rem;
+  }
+
+  .trainings {
+    flex-direction: column;
+  }
+
+  .trainings div {
+    width: 70%;
+  }
+
+  .trainings p {
+    font-size: 1.4rem;
+  }
+
+  .instructors {
+    padding-bottom: 4rem;
+  }
+
+  .instructors > p {
+    font-size: 1.125rem;
+  }
+
+  .instructors-pic {
+    justify-content: center;
+  }
+
+  .instructors-pic li {
+    width: 60%;
+  }
+
+  .classes {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .classes ul li {
+    width: 45%;
+    align-items: center;
+  }
+
+  .classes li > p {
+    font-size: 3rem;
+  }
+
+  .classes li div h3 {
+    font-size: 1.5rem;
+  }
+
+  .classes li div p {
+    font-size: 1.2rem;
+  }
+
+  .getInTouch {
+    flex-direction: column;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .map {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .site-footer {
+    padding-bottom: 2rem;
+  }
+
+  .site-footer .wrapper {
+    flex-wrap: wrap;
+  }
+
+  .site-footer .wrapper .about {
+    flex-basis: 100%;
+  }
+
+  .site-footer .sitemap,
+  .site-footer .contacts {
+    flex-basis: 40%;
+  }
+}
