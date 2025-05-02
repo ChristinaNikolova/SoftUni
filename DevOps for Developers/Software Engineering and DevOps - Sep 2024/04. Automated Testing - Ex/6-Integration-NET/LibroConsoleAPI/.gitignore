@@ -1,0 +1,7 @@
+.vs
+LibroConsoleAPI/bin
+LibroConsoleAPI/obj
+LibroConsoleAPI.IntegrationTests/bin
+LibroConsoleAPI.IntegrationTests/obj
+LibroConsoleAPI.IntegrationTests.NUnit/bin
+LibroConsoleAPI.IntegrationTests.NUnit/obj
