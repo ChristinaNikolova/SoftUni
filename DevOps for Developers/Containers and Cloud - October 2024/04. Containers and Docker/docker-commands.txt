@@ -1,0 +1,15 @@
+- Ex1
+  - docker run --name ls-server -p 80:8080 -d lightstreamer:latest
+  - docker stop ls-server
+  - docker rm ls-server
+  - docker rmi 1e
+  
+- Ex2
+  - docker run --name ghost-container -p 3001:2368 -e NODE_ENV=development -d ghost:latest
+
+- Ex3
+  - docker run --name my-apache-app -p 8080:80 -d -v "%cd%/data":/usr/local/apache2/htdocs/ httpd:latest
+
+- Ex4
+  - docker run -e ACCEPT_EULA=Y -e MSSQL_SA_PASSWORD=yourStrongPassword12# -p 1433:1433 -v sqldata:/var/opt/mssql -d mcr.microsoft.com/mssql/server 
+ 

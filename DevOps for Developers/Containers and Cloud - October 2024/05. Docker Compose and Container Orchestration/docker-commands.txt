@@ -1,0 +1,27 @@
+- Start Docker Desktop
+
+Ex1
+  - vue init browserify mywebsite
+  - create Dockerfile
+  - docker image build -t vueapp:1.0.0 .
+  - docker image build -f "D:\Development\SoftUni\Containers and Cloud - October 2024\05. Docker Compose and Container Orchestration\1. VueApp\mywebsite\" -t vueapp:2.0.0 .
+  - docker run -d -p 8090:8080 --name myvueapp vueapp:1.0.0
+  - docker tag vueapp:1.0.0 christinanikolova/vueapp:1.0.0
+  - docker login
+  - docker push christinanikolova/vueapp:1.0.0
+  - delete images + containers
+  - docker run -d -p 8090:8080 christinanikolova/vueapp:1.0.0
+  
+Ex2
+  - docker network create my-network
+  - docker network ls
+  - docker run -dit --name wordpress_db -e MYSQL_ROOT_PASSWORD=pass -e MYSQL_DATABASE=wordpressdb -e MYSQL_USER=wordpress -e MYSQL_PASSWORD=wordpress --expose 3306 --expose 33060 --network my-network -v "%cd%/data":/var/lib/mysql mysql
+  - docker network inspect my-network
+  - docker run -dit --name wordpress-website -e WORDPRESS_DB_HOST=wordpress_db -e WORDPRESS_DB_USER=wordpress -e WORDPRESS_DB_PASSWORD=wordpress -e WORDPRESS_DB_NAME=wordpressdb -v "%cd%/wp-data":/var/www/html -p 80:80 --network my-network wordpress
+  - docker network inspect my-network
+
+Ex3
+  - docker network create my-network
+  - docker network ls
+  - docker-compose build
+  - docker-compose up -d

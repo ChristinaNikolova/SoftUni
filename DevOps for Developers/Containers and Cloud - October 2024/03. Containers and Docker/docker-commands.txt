@@ -1,0 +1,21 @@
+- Ex1
+  - docker pull nginxdemos/hello
+  - docker images
+  - docker run nginxdemos/hello
+  - docker run -p 5000:80 nginxdemos/hello
+  - docker stop 65af7
+  - docker rm 65af7
+  - docker run -d -p 5000:80 --name chrisicontainer nginxdemos/hello
+  - docker logs b8
+  - docker rmi 9c
+  
+- Ex2
+  - docker run -it -p 8080:8080 -v "D:\Development\SoftUni\Containers and Cloud - October 2024\03. Containers and Docker\02. Vue.js App\mywebsite":/app -w /app node npm run serve
+  
+  Ex3
+  - docker pull mongo
+  - docker run -p 27017:27017 -v "%cd%/data":/data/db -d -e MONGO_INITDB_ROOT_USERNAME=mongoadmin -e MONGO_INITDB_ROOT_PASSWORD=mongoadminpass mongo
+  - docker exec -it f4 /bin/sh
+  - docker volume create data
+  - docker run -p 27017:27017 -v data:/data/db -d -e MONGO_INITDB_ROOT_USERNAME=mongoadmin -e MONGO_INITDB_ROOT_PASSWORD=mongoadminpass mongo
+  
