@@ -1,0 +1,36 @@
+Ex.1 (docker)
+  - docker login
+  - docker image build -t christinanikolova/goals-be .
+  - docker image build -t christinanikolova/goals-fe .
+  
+  - docker network create goals
+  - docker network ls
+  
+  - docker run -d --name mongodb --network goals -v data:/data/db -e MONGO_INITDB_ROOT_USERNAME=user -e MONGO_INITDB_ROOT_PASSWORD=password mongo
+  - docker run -d --name backend --network goals -p 80:80 -v logs:/logs -e MONGODB_USERNAME=user -e MONGODB_PASSWORD=password christinanikolova/goals-be
+  - docker run -d --name frontend --network goals -p 3000:3000 -v /frontend/src:/backend/src christinanikolova/goals-fe
+  - docker network inspect goals
+  
+  - docker network rm goals
+  - docker network ls
+  - docker volume ls
+  
+  - docker push christinanikolova/goals-be
+  - docker push christinanikolova/goals-fe
+  
+  - docker-compose build
+  - docker-compose up -d
+
+Ex2.
+  - terraform plan -var-file="values.tfvars"
+  - terraform apply -var-file="values.tfvars"
+  
+Ex.3  
+  - .\blackbox_exporter.exe 
+  - http://localhost:9115/probe?target=https://webappwatchlistchrisi.azurewebsites.net/
+
+  - .\prometheus.exe --config.file=prometheus-exam.yml
+  - http://localhost:9090/query
+  
+  - .\alertmanager.exe --config.file=./alertmanager-exam.yml
+  - http://localhost:9093/#/alerts

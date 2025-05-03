@@ -1,0 +1,14 @@
+FROM node
+
+WORKDIR /app
+
+COPY . .
+
+RUN npm install
+
+EXPOSE 80
+
+ENV MONGODB_USERNAME=admin
+ENV MONGODB_PASSWORD=password
+
+ENTRYPOINT [ "npm", "start" ]
