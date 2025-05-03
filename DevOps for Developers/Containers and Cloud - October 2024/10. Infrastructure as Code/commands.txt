@@ -1,0 +1,4 @@
+Ex.4
+  - az ad sp create-for-rbac --name "Azure-Terraform-Github-Actions-Chrisi"  --role contributor --scopes /subscriptions/8c6b5631-6453-4b9c-886e-7cbd156191f0 --sdk-auth
+  - az storage account create --name taskboardstoragechrisi --resource-group StorageRG --location northeurope --sku Standard_LRS --kind StorageV2
+  - az storage container create -n taskboardcontainerchrisi --account-name taskboardstoragechrisi

@@ -1,0 +1,2 @@
+terraform apply -var-file="values.tfvars"
+terraform destroy -var-file="values.tfvars"
