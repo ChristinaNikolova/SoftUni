@@ -1,0 +1,11 @@
+<div class="product-item">
+  <img src="{{image}}" />
+  <h3>{{brand}} {{model}}</h3>
+  <p>${{price}}</p>
+  {{#if isCatalog}}
+    <p>CPU: {{cpu}}</p>
+    <p>GPU: {{gpu}}</p>
+    <p>Screen: {{screenSize}} inch</p>
+  {{/if}}
+  <a href="/devices/details/{{_id}}" class="btn">View Details</a>
+</div>
