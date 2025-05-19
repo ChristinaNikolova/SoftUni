@@ -1,0 +1,148 @@
+﻿## Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.cache
+!?*.[Cc]ache/
+
+## Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+*.log
+*.tmp
+*.ilk
+*.pdb
+*.ipdb
+
+## Auto-generated files
+Generated\ Files/
+*_i.c
+*_p.c
+*_h.h
+*.meta
+*.pch
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp_proj
+*_wpftmp.csproj
+
+## Test and coverage
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+*.dotCover
+.axoCover/
+!.axoCover/settings.json
+OpenCover/
+
+## NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+## Node.js
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+## Azure / Publish
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishScripts/
+publish/
+*.appx
+*.appxbundle
+*.appxupload
+
+## SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+## Xamarin / Mono / Mobile
+mono_crash.*
+
+## IDEs and editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+## Misc
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.pfx
+*.publishsettings
+*.opt
+*.vbw
+*.plg
+
+
+## Fakes, tools, and others
+FakesAssemblies/
+*.GhostDoc.xml
+*.jmconfig
+*.tss
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+## Project-specific
+**/wwwroot/lib/
+**/Resources/
+**/Skelet/
+appsettings.Production.json
+*.min.css
+*.min.js
+*.pptx
+*.doc
+*.docx
+*.pdf
+*.zip
+*.txt
+*.md
+
+## Others
+**/03. Version Control with Git - Ex/
+**/03. Version Control with Git - Lab/
+**/07. Development Workflow/
+
+**/01. Linux and Linux Shell - Part I/
+**/02. Linux and Linux Shell - Part II/
+**/03. Containers and Docker/02. Vue.js App/
+**/03. Containers and Docker/03. MongoDB/
+**/04. Containers and Docker/03. ApacheHTTPServer/
+**/05. Docker Compose and Container Orchestration/2. Wordpress with MySQL/
+**/05. Docker Compose and Container Orchestration/3. Wordpress with MySQL/db_data/
+**/05. Docker Compose and Container Orchestration/3. Wordpress with MySQL/wp-data/
+**/11. App Monitoring Tools/
+**/12. App Monitoring Tools/
+
+**/06. Docker Compose and Container Orchestration/
+**/08. Cloud Computing/
