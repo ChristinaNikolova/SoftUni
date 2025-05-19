@@ -1,0 +1,42 @@
+services:
+  redis:
+    container_name: redis
+    networks:
+      - backend
+    image: redis
+  postgres:
+    container_name: db
+    networks:
+      - backend
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    image: postgres
+  example-voiting-app-worker:
+    container_name: worker
+    networks:
+      - backend
+    image: example-voiting-app-worker
+  example-voiting-app-vote:
+    container_name: vote
+    networks:
+      - backend
+      - frontend
+    ports:
+      - 5000:80
+    image: example-voiting-app-vote
+  example-voiting-app-result:
+    container_name: result
+    networks:
+      - backend
+      - frontend
+    ports:
+      - 5001:80
+    image: example-voiting-app-result
+networks:
+  backend:
+  frontend:
+volumes:
+  pgdata:
