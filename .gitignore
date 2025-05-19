@@ -128,6 +128,10 @@ appsettings.Production.json
 *.txt
 *.md
 
+# Terraform
+*.terraform/
+*.terraform.lock.hcl
+
 ## Others
 **/03. Version Control with Git - Ex/
 **/03. Version Control with Git - Lab/
