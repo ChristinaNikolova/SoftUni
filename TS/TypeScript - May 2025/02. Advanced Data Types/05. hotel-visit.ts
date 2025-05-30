@@ -45,7 +45,7 @@ function startHotelVisit(): void {
   visitFloor({ sleep() {}, number: 3, hallway: "A" });
   visitFloor({ dine() {}, number: 2, hallway: "C" });
 
-  // TS errors
+  // TS error
   //   visitFloor({ train() {}, number: 4, hallway: "A" });
   //   visitFloor({ train() {}, number: 1, hallway: "C", pass: "Guest" });
   //   visitFloor({ train() {}, number: 2, hallway: "A" });
