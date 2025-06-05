@@ -34,7 +34,7 @@ class Product {
   }
 
   getDetails(): string {
-    return `ID: ${this.id}, Name: ${this._name}, Price: $${this._price}`;
+    return `ID: ${this.id}, Name: ${this.name}, Price: $${this.price}`;
   }
 }
 
