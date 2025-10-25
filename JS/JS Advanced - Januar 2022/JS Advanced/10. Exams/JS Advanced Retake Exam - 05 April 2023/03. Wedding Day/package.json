@@ -1,0 +1,16 @@
+{
+  "name": "03.-wedding-day",
+  "version": "1.0.0",
+  "main": "wedding-day.js",
+  "scripts": {
+    "test": "mocha ./*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^6.2.0",
+    "mocha": "^11.7.4"
+  }
+}

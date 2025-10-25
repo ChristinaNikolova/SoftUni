@@ -1,0 +1,16 @@
+{
+  "name": "03.-movie-theater",
+  "version": "1.0.0",
+  "main": "movie-theater.js",
+  "scripts": {
+    "test": "mocha ./*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^6.2.0",
+    "mocha": "^11.7.4"
+  }
+}
